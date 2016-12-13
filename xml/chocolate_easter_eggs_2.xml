@@ -1,0 +1,67 @@
+  <recipe title="Chocolate Easter Eggs 2">
+    <source>Modified from Chocolate Easter Eggs</source>
+    <ingredients>
+      <ingredient name="margarine">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="confectioner's sugar">
+    	<measure qty="2" unit="pound"/>
+      </ingredient>
+      <ingredient name="cream cheese">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="dark chocolate"/>
+      <choices>
+        <choice>
+          <ingredient name="peanut butter">
+            <measure qty="2" unit="cup"/>
+          </ingredient>
+          <comment>Easy to roll due to oil in peanut butter.</comment>
+        </choice>
+        <choice>
+          <ingredient name="coconut">
+            <measure qty="2" unit="cup"/>
+          </ingredient>
+        </choice>
+        <choice>
+          <ingredient name="peppermint oil">
+            <measure qty="50" unit="drop"/>
+          </ingredient>
+        </choice>
+         <choice>
+          <ingredient name="unsweetened cocoa">
+            <measure qty="1" unit="cup"/>
+          </ingredient>
+        </choice>
+        <choice>
+          <ingredient name="vanilla">
+            <measure qty="2" unit="teaspoon"/>
+          </ingredient>
+        </choice>
+        <choice>
+          <ingredient name="strawberry flavoring">
+            <measure qty="50" unit="drops"/>
+          </ingredient>
+          <ingredient name="unsweeted strawberry Kool-aid">
+            <measure qty="2" unit="package"/>
+          </ingredient>
+        </choice>
+        <choice>
+          <ingredient name="orange oil">
+            <measure qty="35" unit="drops"/>
+          </ingredient>
+          <ingredient name="unsweeted orange Kool-aid">
+            <measure qty="1" unit="package"/>
+          </ingredient>
+        </choice>
+      </choices>
+    </ingredients>
+    <steps>
+      <step>Mix softened margarine and cream cheese.</step>
+      <step>Mix in vanilla and confectioner's sugar.</step>
+      <step>Add flavoring to desired taste.</step>
+      <step>Shape into eggs, place on wax paper and freeze overnight.</step>
+      <step>Melt chocolate in a double boiler and dip eggs.</step>
+      <step>Place back on wax paper and freeze until solid.</step>
+    </steps>
+  </recipe>

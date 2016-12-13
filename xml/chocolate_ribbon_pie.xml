@@ -1,0 +1,38 @@
+  <recipe title="Chocolate Ribbon Pie">
+    <ingredients>
+      <ingredient name="Philadelphia cream cheese" form="softened">
+    	<measure qty="4" unit="ounce"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="2" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="Cool Whip">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="chocolate-flavored crumb crust">
+    	<measure qty="1" unit="9-inch"/>
+      </ingredient>
+      <ingredient name="Jello chocolate flavor instant pudding">
+    	<measure qty="2" unit="package"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Beat cream cheese, sugar, and 1 tablespoon milk in a large bowl
+            until smooth. Gently stir in 1/2 of the whipped topping.
+            Spread on bottom of crust.</step>
+      <step>Pour 2 cups cool milk into large bowl. Add pudding mixes. Beat
+            with wire wisk 2 minutes. (Mixture will be thick) Pour over
+            cream cheese layer.</step>
+      <step>Refrigerate 4 hours or until set.  Just before serving, spread
+            remaining whipped topping over pudding layer.
+            Garnish with shaved chocolate.
+           </step>
+    </steps>
+    <yield serves="8"/>
+  </recipe>

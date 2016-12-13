@@ -1,0 +1,67 @@
+  <recipe title="Naan">
+    <category name="Bread"/>
+    <ingredients>
+      <ingredient name="dry yeast">
+    	<measure qty="1" unit="package"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="5" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="water" form="warm">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="egg" form="beaten">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="3" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="flour">
+    	<measure qty="5" unit="cup"/>
+      </ingredient>
+      <ingredient name="vegetable oil">
+    	<measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="unsalted butter">
+    	<measure qty="4" unit="tablespoon"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Combine the yeast, 1 tablespoon of the sugar and 1/4 cup of the
+            water in a large bowl and let stand until foamy, 5 to 10
+            minutes.</step>
+      <step>Stir in the remaining sugar, the remaining water, the egg, milk
+            and salt.  Add 4 cups of the flour and stir to form a dough that
+            is soft and pliable, but not sticky. Knead the dough until smooth
+            and elastic. Add as much of the remaining flour as necessary.
+            It should take 6 to 8 minutes.</step>
+      <step>Use 1/2 tablespoon of the oil to lightly oil a large bowl. Place
+            the dough in the bowl, brush the top with the remaining oil,
+            cover with a clean kitchen towel, and let rise in a warm,
+            draft-free spot until doubled in bulk, 1 to 1 1/2 hours. Punch
+            down the dough and pinch off 2-inch pieces. Roll them between
+            your palms into smooth balls. you should have 14 to 16 balls.
+            Place the balls on a lightly floured baking sheet and cover with
+            a lightly dampened clean kitchen towel. Let rise again until
+            puffy, about 30 minutes.</step>
+      <step>Preheat grill to high.</step>
+      <step>When ready to cook, place a rolling pin, cutting board, bowl of
+            flour, and the melted butter near the grill. Roll out a dough ball
+            on a lightly floured cutting board to for a disk about 5 inches
+            in diameter. Gently slap the disk from one hand to the other to
+            stretch it into an elongated 7 to 8 inch circle. Stretch the
+            circle into a traditional teardrop shape and immediately lay it
+            on the hot grate.</step>
+      <step>Cook the bread until the bottom is crusty and browned and the
+            top is puffed and blistered, 2 to 4 minutes. Brush with butter.
+            Invert the naan and grill the other side until lightly browned,
+            2 to 4 minutes. Prepare the remaining naan the same way. Brush
+            each naan with more butter as it comes off the grill and serve
+            while piping hot. Serve whole, or cut each naan into 3 wedges to
+            serve the traditional way.</step>
+    </steps>
+    <yield serves="8"/>
+  </recipe>

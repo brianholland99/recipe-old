@@ -1,0 +1,28 @@
+  <recipe title="Far East Beef Stew">
+    <ingredients>
+      <ingredient name="Armour Star beef stew">
+    	<measure qty="24" unit="ounce"/>
+      </ingredient>
+      <ingredient name="water chestnut" form="drained and sliced">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="green onion" form="cut">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="soy sauce">
+    	<measure qty="1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="ground ginger">
+    	<measure qty="1/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="rice" form="cooked"/>
+      <ingredient name="chow mein noodles"/>
+    </ingredients>
+    <steps>
+      <step>In fry pan, combine stew, water chestnuts, green onions, soy
+            sauce and ginger.</step>
+      <step>Simmer 10 minutes.</step>
+      <step>Serve over rice and garnish with noodles.</step>
+    </steps>
+    <yield serves="4"/>
+  </recipe>

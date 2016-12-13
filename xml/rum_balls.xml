@@ -1,0 +1,40 @@
+  <recipe title="Rum Balls">
+    <ingredients>
+      <ingredient name="vanilla wafers" form="crushed">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="powdered sugar">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="walnuts" form="ground">
+    	<measure qty="1 1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="cocoa">
+    	<measure qty="2" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="light corn syrup">
+    	<measure qty="2" unit="tablespoon"/>
+      </ingredient>
+      <choices>
+        <choice>
+          <ingredient name="rum">
+            <measure qty="1/4" unit="cup"/>
+          </ingredient>
+        </choice>
+        <choice>
+          <ingredient name="whiskey">
+            <measure qty="1/4" unit="cup"/>
+          </ingredient>
+        </choice>
+        <choice>
+          <ingredient name="brandy">
+            <measure qty="1/4" unit="cup"/>
+          </ingredient>
+        </choice>
+      </choices>
+    </ingredients>
+    <steps>
+      <step>Mix together.</step>
+      <step>Roll in powdered sugar.</step>
+    </steps>
+  </recipe>

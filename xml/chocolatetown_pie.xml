@@ -1,0 +1,50 @@
+  <recipe title="Chocolatetown Pie">
+    <source>Hershey</source>
+    <category name="Pie"/>
+    <ingredients>
+      <ingredient name="pie shell" form="unbaked">
+	  <measure qty="1" unit="9-inch"/>
+      </ingredient>
+      <ingredient name="butter" form="softened">
+	  <measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="eggs">
+	  <measure qty="2"/>
+      </ingredient>
+      <ingredient name="vanilla">
+	  <measure qty="2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="sugar">
+	  <measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="all-purpose flour">
+	  <measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="Hershey's semi-sweet chocolate chip">
+	  <measure qty="1" unit="cup"/>
+      </ingredient>
+      <choices>
+          <choice>
+              <ingredient name="walnut" form="chopped" iptional="yes">
+	          <measure qty="1" unit="cup"/>
+              </ingredient>
+         </choice>
+          <choice>
+              <ingredient name="pecan" form="chopped" iptional="yes">
+	          <measure qty="1" unit="cup"/>
+              </ingredient>
+         </choice>
+    </choices>
+    </ingredients>
+    <steps>
+      <step>Prepare pastry shell; set aside.</step>
+      <step>Preheat oven to 350&deg;F.</step>
+      <step>In small mixer bowl, cream butter; add eggs and vanilla.</step>
+      <step>Combine sugar and flour, add to creamed mixture.</step>
+      <step>Stir in chocolate chips and nuts.</step>
+      <step>Pour into unbaked pastry shell.</step>
+      <step>Bake for 45 to 50 minutes or until golden brown.</step>
+      <step>Cool about one hour, serve warm.</step>
+    </steps>
+    <yield count="1" size="9-inch"/>
+  </recipe>

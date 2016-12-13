@@ -1,0 +1,34 @@
+  <recipe title="Easy Chicken and Pasta">
+    <source>Campbell's</source>
+    <category name="Entree"/>
+    <ingredients>
+      <ingredient name="chicken breast" form="boneless, skinless">
+    	<measure qty="1" unit="pound"/>
+      </ingredient>
+      <ingredient name="Campbell's Condensed Reduced Fat Cream of Mushroom Soup">
+    	<measure qty="1" unit="can"/>
+      </ingredient>
+      <ingredient name="water">
+    	<measure qty="1" unit="soup can"/>
+      </ingredient>
+      <ingredient name="garlic powder">
+    	<measure qty="1/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="vegatable combination (brocolli, cauliflower,carrots" form="frozen">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="medium egg noodles" form="uncooked">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>In medium non-stick skillet over medium heat, cook chicken
+            until browned. Set chicken aside</step>
+      <step>Add soup, water, garlic powder and vegetable combination.
+            Heat to a boil. Add noodles. Cook over medium heat 5 minutes,
+            stirring often.</step>
+      <step>Return chicken to pan.  Cook 5 minutes or until noodles are done,
+            stirring often.</step>
+    </steps>
+    <yield serves="4"/>
+  </recipe>

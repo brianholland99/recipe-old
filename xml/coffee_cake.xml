@@ -1,0 +1,59 @@
+  <recipe title="Coffee Cake">
+    <source>Mo Johnson</source>    
+    <group name="topping">
+      <ingredients>
+      	<ingredient name="flour">
+    	  <measure qty="3" unit="tablespoon"/>
+      	</ingredient>
+      	<ingredient name="cinnamon">
+    	  <measure qty="1/2" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="sugar">
+    	  <measure qty="1/4" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="butter">
+    	  <measure qty="2" unit="tablespoon"/>
+      	</ingredient>
+      </ingredients>
+    </group>
+    <group name="batter">
+      <ingredients>
+      	<ingredient name="flour">
+    	  <measure qty="1 1/2" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="baking powder">
+    	  <measure qty="2 1/2" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="salt">
+    	  <measure qty="1/4" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="sugar">
+    	  <measure qty="3/4" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="shortening">
+    	  <measure qty="1/4" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="egg">
+    	  <measure qty="1"/>
+      	</ingredient>
+      	<ingredient name="milk">
+    	  <measure qty="1/2" unit="cup"/>
+      	</ingredient>
+      </ingredients>
+    </group>
+    <steps>
+      <step>Blend all ingredients for topping with fork until well mixed
+            and crumbly then set aside.</step>
+      <step>Sift flour, baking powder, salt and sugar together in a
+            bowl.</step>
+      <step>Cut in shortening until mix is like coarse corn meal.</step>
+      <step>Combine milk and egg then beat.</step>
+      <step>Pour milk and egg mixture into flour mixture and stir
+            until just mixed.</step>
+      <step>Grease a 12"x8"x2" pan.</step>
+      <step>Turn batter into pan and spread to corners.</step>
+      <step>Sprinkle topping evenly over batter.</step>
+      <step>Bake at 375&deg;F for 15 to 20 minutes until golden brown.</step>
+    </steps>
+    <yield serves="8-12"/>
+  </recipe>

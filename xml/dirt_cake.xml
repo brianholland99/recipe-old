@@ -1,0 +1,31 @@
+  <recipe title="Dirt Cake">
+    <category name="Cake"/>
+    <ingredients>
+      <ingredient name="margarine">
+    	<measure qty="1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="cream cheese">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="vanilla instant pudding">
+    	<measure qty="2" unit="large packages"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="3 1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="Cool Whip">
+    	<measure qty="16" unit="ounce"/>
+      </ingredient>
+      <ingredient name="Oreo">
+    	<measure qty="1" unit="package"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Mix margarine and cream cheese.</step>
+      <step>In a separate bowl, mix pudding mix and milk.</step>
+      <step>Mix both mixtures together. Fold in Cool Whip.</step>
+      <step>Crumble the package of Oreo cookies.</step>
+      <step>Alternate layes of Oreo crumbs and mixture in a deep dish.
+            Start and end with Oreos.</step>
+    </steps>
+  </recipe>

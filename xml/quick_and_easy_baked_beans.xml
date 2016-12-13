@@ -1,0 +1,40 @@
+  <recipe title="Quick and Easy Baked Beans">
+    <ingredients>
+      <ingredient name="pork and beans">
+    	<measure qty="3" unit="cans"/>
+      </ingredient>
+      <ingredient name="catsup">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="brown sugar">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="onion" form="finely chopped">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="vinegar">
+    	<measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="prepared mustard">
+    	<measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="ground beef">
+        <measure-range>
+    	  <min-measure qty="3/4" unit="pound"/>
+    	  <max-measure qty="1" unit="pound"/>
+        </measure-range>
+      </ingredient>
+      <ingredient name="bacon">
+        <measure-range>
+    	  <min-measure qty="4" unit="slice"/>
+    	  <max-measure qty="6" unit="slice"/>
+        </measure-range>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Chop bacon strips and saute with ground beef.  Drain.</step>
+      <step>Add to other ingredients.</step>
+      <step>Bake at 350&deg;F for 35 to 45 minutes in 9"x9" baking dish
+            or cook in crock pot.</step>
+    </steps>
+  </recipe>

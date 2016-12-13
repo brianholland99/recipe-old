@@ -1,0 +1,28 @@
+  <recipe title="Chocolate Easter Eggs">
+    <source>Joyce Stevens</source>
+    <ingredients>
+      <ingredient name="margarine">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="confectioner's sugar">
+    	<measure qty="1" unit="pound"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="cream cheese">
+    	<measure qty="3" unit="ounce"/>
+      </ingredient>
+      <ingredient name="chocolate"/>
+      <ingredient name="peanut butter, coconut, or cherries/nuts"
+                  optional="yes"/>
+    </ingredients>
+    <steps>
+      <step>Mix softened margarine and cream cheese.</step>
+      <step>Mix in vanilla and confectioner's sugar.</step>
+      <step>If adding flavoring, add now to desired taste.</step>
+      <step>Shape into eggs, place on wax paper and freeze overnight.</step>
+      <step>Melt chocolate in a double boiler and dip eggs.</step>
+      <step>Place back on wax paper and freeze until solid.</step>
+    </steps>
+  </recipe>

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+<!-- TODO: What about ids for links? -->
+
+<xsd:element name="recipes">
+ <xsd:complexType>
+  <xsd:sequence>
+   <xsd:element name="recipe" maxOccurs="unbounded" type="recipeType"/>
+  </xsd:sequence>
+ </xsd:complexType>
+</xsd:element>
+
+<xsd:complexType name="RecipeType">
+ <xsd:sequence>
+  <xsd:element name="title" type="xsd:string"/>
+  <xsd:element name="author" minOccurs="0" type="xsd:string"/>
+  <xsd:element name="source" minOccurs="0" type="xsd:string"/>
+  <xsd:element name="category" minOccurs="0" type="xsd:string"/>
+<!-- Sample alternate definition using defined list of categories:
+  <xsd:element name="category" minOccurs="0" type="categories"/>
+-->
+  <!-- TODO: What type for image - currently anyType -->
+  <xsd:element name="image" minOccurs="0"/>
+  <xsd:choice>
+   <xsd:element name="ingredients" type="ingredientsType"/>
+   <xsd:group>
+    <xsd:sequence>
+     <xsd:element name="group" minOccurs="2" maxOccurs="unbounded"/>
+    </xsd:sequence>
+   </xsd:group>
+  <xsd:element name=steps" type="stepsType" minOccurs="0"/>
+  <xsd:element name="yield" minOccurs="0" type="yieldType"/>
+  <xsd:element name="descriptive" minOccurs="0" type="descriptiveType"/>
+  <xsd:element name="comment" minOccurs="0" type="commentType"/>
+ </xsd:sequence>
+ <xsd:attribute name="title" type="xsd:string"/>
+</xsd:complexType>
+
+
+<!-- Alternate possibility - category enumerations -->
+<xsd:simpleType name="categories">
+ <xsd:restriction base="xsd:string">
+  <xsd:enumeration value="Dessert"/>
+  <xsd:enumeration value="Beverage"/>
+  <xsd:enumeration value="Appetizer"/>
+  <xsd:enumeration value="Entree"/>
+ </xsd:restriction>
+</xsd:simpleType>
+
+
+<xsd:complexType name="measureType">
+ <xsd:restriction base="anyType">
+  <xsd:attribute name="" type=""/>
+ </xsd:restriction>
+<xsd:complexType>
+
+<!-- TODO:  -->
+<!-- TODO: title -->
+<!-- TODO: author -->
+<!-- TODO: source -->
+<!-- TODO: category -->
+<!-- TODO: image -->
+<!-- TODO: ingredients -->
+<!-- TODO: ingredient -->
+
+<!-- qty for measure should be any of
+     the following formats:
+   .5  ?? Should we allow this (does decimal cover this?)
+   0.5
+   1      Does decimal cover this?
+   3/4
+   1 3/4   -->
+<!-- TODO: measure -->
+<xsd:complexType name="measureType">
+  <xsd:attribute name="qty" use="optional">
+    <xsd:simpleType>
+      <xsd:union>
+        <xsd:decimal/>
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:pattern value="(\d+\s)?d+/d+"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:union>
+    </xsd:simpleType>
+  </xsd:attribute>
+  <xsd:attribute name="unit" type="xsd:string" use="optional"/>
+  <xsd:attribute name="precision" use="default" value="exact">
+    <xsd:simpleType>
+      <xsd:restriction base='string'>
+        <xsd:enumeration value='exact'/>
+        <xsd:enumeration value='approximate'/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:attribute>
+</xsd:complexType>
+
+
+
+<!-- TODO: min-measure -->
+<!-- TODO: max-measure -->
+<!-- TODO: ingredient-choices -->
+<!-- TODO: choice-group -->
+<!-- TODO: group -->
+<!-- TODO: steps -->
+<!-- TODO: step -->
+
+<!-- TODO: yield -->
+
+<xsd:complexType name="yieldType">
+ <xsd:restriction base="anyType">
+  <xsd:attribute name="serves" type="xsd:string"/>
+  <xsd:attribute name="count" type="xsd:string"/>
+  <xsd:attribute name="measurement" type="xsd:string"/>
+  <xsd:attribute name="size" type="xsd:string"/>
+  <xsd:attribute name="descriptive" type="xsd:string"/>
+ </xsd:restriction>
+<xsd:complexType>
+
+<!-- TODO: comment -->
+<!-- TODO: descriptive -->
+<!-- TODO: emph-->
+
+
+</xsd:schema>

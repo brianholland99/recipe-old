@@ -1,0 +1,29 @@
+  <recipe title="Country-Style Biscuits">
+    <ingredients>
+      <ingredient name="flour">
+    	<measure qty="2 3/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="baking powder">
+    	<measure qty="1 1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="baking soda">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="shortening">
+    	<measure qty="1/3" unit="cup"/>
+      </ingredient>
+      <ingredient name="old mill buttermilk">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Knead for 30 seconds.</step>
+      <step>Cut 1/2" thick.</step>
+      <step>Put on ungreased cokie sheet.</step>
+      <step>Bake 10 to 15 minutes.</step>
+    </steps>
+    <comment>Temperature wasn't specified.</comment>
+  </recipe>

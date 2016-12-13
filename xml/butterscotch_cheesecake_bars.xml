@@ -1,0 +1,43 @@
+  <recipe title="Butterscotch Cheesecake Bars">
+    <ingredients>
+      <ingredient name="butterscotch chips">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="margarine">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="graham cracker crumbs">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="pecans" form="chopped">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="cream cheese" form="softened">
+    	<measure qty="8" unit="ounces"/>
+      </ingredient>
+      <ingredient name="sweetened condensed milk">
+    	<measure qty="1" unit="14-ounce can"/>
+      </ingredient>
+      <ingredient name="egg">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="vanilla extract">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Preheat oven to 350&deg;F.</step>
+      <step>Combine butterscotch chips and margarine in double boiler over
+            hot water.  Cook until melted.</step>
+      <step>Add graham cracker crumbs and pecans; mix well.</step>
+      <step>Press half the graham cracker mixture into greased 9-by-13 inch
+            baking pan.</step>
+      <step>Combine cream cheese, condensed milk, egg, and vanilla in bowl;
+            mix well.</step>
+      <step>Spread over graham cracker layer.  Sprinkle with remaining graham
+            cracker crumb mixture.</step>
+      <step>Bake at 350&deg;F for 20 to 30 minutes or until top is firm.</step>
+      <step>Cut into 1-by-2-inch bars.</step>
+    </steps>
+    <yield count="15"/>
+  </recipe>

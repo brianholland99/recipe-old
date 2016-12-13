@@ -1,0 +1,48 @@
+  <recipe title="Jewish Apple Cake">
+    <source>Carol Hahn</source>
+    <group name="cake">
+      <ingredients>
+        <ingredient name="vanilla">
+          <measure qty="2 1/2" unit="teaspoon"/>
+        </ingredient>
+        <ingredient name="flour">
+          <measure qty="3" unit="cup"/>
+        </ingredient>
+        <ingredient name="egg">
+          <measure qty="4"/>
+        </ingredient>
+        <ingredient name="sugar">
+          <measure qty="2" unit="cup"/>
+        </ingredient>
+        <ingredient name="orange juice">
+          <measure qty="1/2" unit="cup"/>
+        </ingredient>
+        <ingredient name="baking powder">
+          <measure qty="3" unit="teaspoon"/>
+        </ingredient>
+        <ingredient name="oil">
+          <measure qty="1" unit="cup"/>
+        </ingredient>
+      </ingredients>
+    </group>
+    <group name="apple mixture">
+      <ingredients>
+        <ingredient name="apple" form="sliced">
+          <measure qty="5"/>
+        </ingredient>
+        <ingredient name="cinnamon">
+          <measure qty="2" unit="teaspoon"/>
+        </ingredient>
+        <ingredient name="sugar">
+          <measure qty="5" unit="tablespoon"/>
+        </ingredient>
+      </ingredients>
+    </group>
+    <steps>
+      <step>Place 1/2 batter in pan.</step>
+      <step>Then add 1/2 apple mixture to 1/2 cake.</step>
+      <step>Add the remaining cake to the remaining apples.</step>
+      <step>Bake at 350&deg;F for 1 1/2 hours.</step>
+      <step>Let stand for 1 hour before removing from pan.</step>
+    </steps>
+  </recipe>

@@ -1,0 +1,82 @@
+  <recipe title="Buttermilk Scones">
+    <source>Mary Vaccarino</source>
+    <ingredients>
+      <ingredient name="flour">
+    	<measure qty="4 1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="baking powder">
+    	<measure qty="3 3/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="3/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="baking soda">
+    	<measure qty="3/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="butter">
+    	<measure qty="1" unit="cup"/>
+    	<measure qty="2" unit="tablespoon"/>
+      </ingredient>
+      <choices>
+        <choice>
+          <ingredient name="fruit" form="dried">
+            <measure qty="1 1/2" unit="cup"/>
+          </ingredient>
+          <ingredient name="orange peel" form="grated">
+    	    <measure qty="1/2" unit="teaspoon"/>
+          </ingredient>
+        </choice>
+        <choice>
+          <ingredient name="chocolate chips">
+    	     <measure qty="1 1/2" unit="cup"/>
+          </ingredient>
+        </choice>
+      </choices>
+      <ingredient name="buttermilk">
+    	<measure qty="1 1/2" unit="cup"/>
+      </ingredient>
+      <choices>
+        <choice>
+          <ingredient name="milk">
+    	    <measure qty="2" unit="tablespoon"/>
+          </ingredient>
+        </choice>
+        <choice>
+          <ingredient name="cream">
+    	    <measure qty="2" unit="tablespoon"/>
+          </ingredient>
+        </choice>
+      </choices>
+      <ingredient name="cinnamon">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="3" unit="tablespoon"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Preheat oven to 425&deg;F.</step>
+      <step>Combine flour, sugar, baking powder, baking soda, and
+            salt in a bowl.</step>
+      <step>Add butter and mix until it resembles coarse cornmeal.</step>
+      <step>Put into a large bowl and stir in dried fruit and orange peel
+            or chocolate chips.</step>
+      <step>Add buttermilk and stir with a fork until dough cleans the
+            sides of the bowl.</step>
+      <step>Gather half dough and roll into a ball on a lightly
+            floured surface.</step>
+      <step>Roll or pat until about a half inch thick.</step>
+      <step>Cut with a knife into eight pie shaped pieces.</step>
+      <step>Repeat with remaining dough.</step>
+      <step>Place on a lightly greased cookie sheet and brush
+            tops with milk or cream.</step>
+      <step>Sprinkle with sugar and cinnamon mixture.</step>
+      <step>Bake for 10 minutes.</step>
+    </steps>
+    <comment>Strawberries, blueberries, and cherries make good choices
+              for fruit. The scones are moister when slightly under cooked,
+              about 9 minutes.</comment>
+  </recipe>

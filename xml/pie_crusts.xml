@@ -1,0 +1,29 @@
+  <recipe title="Pie Crusts">
+    <source>Doris Holland</source>
+    <category name="Pie"/>
+    <ingredients>
+      <ingredient name="flour">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="baking shortening">
+    	<measure qty="2/3" unit="cup"/>
+      </ingredient>
+      <ingredient name="water">
+        <measure-range>
+    	  <min-measure qty="4" unit="tablespoon"/>
+    	  <max-measure qty="6" unit="tablespoon"/>
+        </measure-range>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Mix flour and salt together.</step>
+      <step>Cut in shortening.</step>
+      <step>Add 4 tablespoon water.</step>
+      <step>Mix together.</step>
+      <step>If needed add more water. (Usally more than 4 is needed.)</step>
+    </steps>
+    <yield count="2" size="9 inch" descriptive="pie crusts"/>
+  </recipe>

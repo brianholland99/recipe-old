@@ -1,0 +1,53 @@
+  <recipe title="French Chocolate Cake">
+    <source>Young Cacy -> Carol Hahn</source>
+    <ingredients>
+      <choices>
+    	<choice>
+    	  <ingredient name="dark baking chocolate">
+    	    <measure qty="7" unit="ounce"/>
+    	  </ingredient>
+    	</choice>
+    	<choice>
+	    <ingredient name="semi-sweet chocolate">
+    	    <measure qty="7" unit="ounce"/>
+    	  </ingredient>
+    	</choice>
+      </choices>
+      <ingredient name="dark baking chocolate">
+    	<measure qty="1" unit="ounce"/>
+      </ingredient>
+      <ingredient name="butter">
+    	<measure qty="1" unit="pound"/>
+      </ingredient>
+      <ingredient name="egg">
+    	<measure qty="5"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="flour">
+    	<measure qty="1 1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="baking powder">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="hazelnut" optional="yes">
+    	<measure qty="1/3" unit="cup"/>
+      </ingredient>
+      <ingredient name="whipped cream" optional="yes"/>
+      <ingredient name="chocolate" form="shaved" optional="yes"/>
+    </ingredients>
+    <steps>
+      <step>Grease a 9 1/2 inch springform pan.</step>
+      <step>Preheat oven to 425&deg;F.</step>
+      <step>Melt chocolate and butter in thick pan over low heat.</step>
+      <step>Beat eggs and sugar until airy.</step>
+      <step>Carefully stir somewhat cooled chocolate mixture into egg
+            mixture.</step>
+      <step>Blend flour, nut, and baking powder into batter.</step>
+      <step>Pour into pan.</step>
+      <step>Bake for 17 minutes.  Watch closely. This cake is best if center
+            is not firm.  Do not overbake!</step>
+      <step>Top with whipped cream and shaved chocolate.</step>
+    </steps>
+  </recipe>

@@ -1,0 +1,53 @@
+  <recipe title="Cheesecake Cookies">
+    <group name="crust and topping">
+      <ingredients>
+      	<ingredient name="butter">
+    	  <measure qty="1/3" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="brown sugar" form="firmly packed">
+    	  <measure qty="1/3" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="flour">
+    	  <measure qty="1" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="nuts" form="chopped">
+    	  <measure qty="1/2" unit="cup"/>
+      	</ingredient>
+      </ingredients>
+    </group>
+    <group name="cheese mixture">
+      <ingredients>
+      	<ingredient name="sugar">
+    	  <measure qty="1/4" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="cream cheese">
+    	  <measure qty="8" unit="ounce"/>
+      	</ingredient>
+      	<ingredient name="egg">
+    	  <measure qty="1"/>
+      	</ingredient>
+      	<ingredient name="milk">
+    	  <measure qty="2" unit="tablespoon"/>
+      	</ingredient>
+      	<ingredient name="lemon juice">
+    	  <measure qty="1" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="vanilla">
+    	  <measure qty="1/2" unit="teaspoon"/>
+      	</ingredient>
+      </ingredients>
+    </group>
+    <steps>
+      <step>Cream butter and brown sugar.</step>
+      <step>Add flour and nuts. Mix to make crumb mixture.</step>
+      <step>Reserve 1 cup for topping.</step>
+      <step>Press remaining crumb mixture in 8" square pan.</step>
+      <step>Bake at 350&deg;F for 10 to 15 minutes until lightly brown.
+            Cool.</step>
+      <step>Blend sugar with cream cheese in a small bowl. Add egg, milk
+            lemon juice and vanilla. (will be kind of watery)</step>
+      <step>Spread over baked crust.</step>
+      <step>Sprinkle rest of topping mixture over cheese mixture.</step>
+      <step>Bake at 350&deg;F for 25 minutes. Cool.  Cut into squares.</step>
+    </steps>
+  </recipe>

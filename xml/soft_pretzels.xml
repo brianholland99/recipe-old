@@ -1,0 +1,38 @@
+  <recipe title="Soft Pretzels">
+    <ingredients>
+      <ingredient name="dry yeast">
+    	<measure qty="1" unit="envelope"/>
+      </ingredient>
+      <ingredient name="water" form="warm">
+    	<measure qty="1 1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="flour">
+        <measure-range>
+    	  <min-measure qty="4" unit="cup"/>
+    	  <max-measure qty="5" unit="cup"/>
+        </measure-range>
+      </ingredient>
+      <ingredient name="egg" form="beaten">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="course salt"/>
+    </ingredients>
+    <steps>
+      <step>Dissolve yeast in warm water. Add sugar, salt, and flour.</step>
+      <step>Turn dough onto lightly floured board. Knead until smooth
+           (5 minutes).</step>
+      <step>Cut off small pieces of dough. Roll into ropes and twist into
+            traditional pretzel shape.</step>
+      <step>Arrange on greased cookie sheets. Brush with egg. Sprinkle with
+            course salt.</step>
+      <step>Bake at 425&deg;F for 12 to 15 minutes or until brown.</step>
+      <step>Serve within a few days.</step>
+    </steps>
+    <yield count="15" descriptive="medium-sized pretzels"/>
+  </recipe>

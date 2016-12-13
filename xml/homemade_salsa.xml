@@ -1,0 +1,35 @@
+  <recipe title="Homemade Salsa">
+    <source>Kelley A. Silberberg</source>
+    <ingredients>
+      <ingredient name="tomato" form="mashed">
+        <measure-range>
+    	  <min-measure qty="3"/>
+    	  <max-measure qty="4"/>
+        </measure-range>
+      </ingredient>
+      <ingredient name="green chilies" form="diced">
+    	<measure qty="4" unit="ounce"/>
+      </ingredient>
+      <ingredient name="green pepper" form="diced">
+    	<measure qty="1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="onion" form="diced">
+    	<measure qty="1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="jalapeno" form="diced">
+    	<measure qty="2"/>
+      </ingredient>
+      <ingredient name="cilantro">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="garlic" form="chopped">
+    	<measure qty="3" unit="clove"/>
+      </ingredient>
+      <ingredient name="tabasco">
+    	<measure qty="2" unit="shake"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Mix together and serve.</step>
+    </steps>
+  </recipe>

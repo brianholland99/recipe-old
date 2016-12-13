@@ -1,0 +1,25 @@
+  <recipe title="">
+    <group name="">
+      <ingredients>
+      	<ingredient name="">
+    	  <measure qty="" unit=""/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+        <step></step>
+      </steps>
+    </group>
+    <group name="">
+      <ingredients>
+      	<ingredient name="">
+    	  <measure qty="" unit=""/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+        <step></step>
+      </steps>
+    </group>
+    <steps>
+      <step</step>
+    </steps>
+  </recipe>

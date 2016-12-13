@@ -1,0 +1,44 @@
+  <recipe title="Spring Rolls">
+    <source>Ed Riggie</source>
+    <category name="Appetizer"/>
+    <ingredients>
+      <ingredient name="bean sprouts">
+    	<measure qty="1/2" unit="pound"/>
+      </ingredient>
+      <ingredient name="shrimp">
+    	<measure qty="1/4" unit="pound"/>
+      </ingredient>
+      <ingredient name="pork">
+    	<measure qty="1/2" unit="pound"/>
+      </ingredient>
+      <ingredient name="scallion">
+    	<measure qty="6"/>
+      </ingredient>
+      <ingredient name="oil">
+    	<measure qty="3" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1 1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="egg roll wrappers">
+    	<measure qty="20"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Wash bean sprouts and pick them over. Shell, devein and dice shrimp.
+            Dice the pork fine and cut the scallions into one inch lengths.
+            </step>
+      <step>Heat a pan with oil and when hot, saute the pork and the shrimp
+            for one minute.  Add the scallions and bean sprouts and stir for
+            another two minutes. Add the sugar and salt and stir once or
+            twice.  Remove from heat.</step>
+      <step>Place two teaspoons of the filling on each wrapping and fold
+            it into a long package like a roll.  Wet ends with water and
+            close securely.  Heat pan and fill up to one inch of oil.
+            Deep fry the rolls for six minutes or until they turn golden
+            brown. Serve very hot with soy sauce.</step>
+    </steps>
+  </recipe>

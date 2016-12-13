@@ -1,0 +1,148 @@
+<!-- 
+  recipes.dtd  2002-03-24 (v 1.08)
+  D. Elmo Peele
+  Brian E. Holland
+
+  An XML DTD for cooking recipes.
+  
+  Looked at work done in recipes.dtd V0.01 A.M. Kuchling (amk1@bigfoot.com)
+  for ideas when creating this. 
+  
+  Both <recipes> and <recipe> are intended for use as root elements.
+
+-->
+
+<!ENTITY copy   "&#xA9;">   <!-- copyright -->
+<!ENTITY reg    "&#xAE;">   <!-- registered trademark -->
+<!ENTITY deg    "&#xB0;">   <!-- degree -->
+<!ENTITY trade  "&#x2122;"> <!-- trademark -->
+
+<!-- Common Foreign Language Characters -->
+<!ENTITY iexcl  "&#xA1;">   <!-- upsidedown exclamation -->
+<!ENTITY Egrave "&#xC8;">   <!-- E acute -->
+<!ENTITY Eacute "&#xC9;">   <!-- E acute -->
+<!ENTITY Ecirc  "&#xCA;">   <!-- E circumflex (hat) -->
+<!ENTITY Icirc  "&#xCE;">   <!-- I circumflex (hat) -->
+<!ENTITY egrave "&#xE8;">   <!-- e grave -->
+<!ENTITY eacute "&#xE9;">   <!-- e acute -->
+<!ENTITY ecirc  "&#xEA;">   <!-- e circumflex (hat) -->
+<!ENTITY icirc  "&#xEE;">   <!-- i circumflex (hat) -->
+
+<!ELEMENT recipes (recipe+, bookinfo?) >
+
+<!ELEMENT bookinfo (title?, author*, date?, version?)>
+
+<!ELEMENT title   (#PCDATA)>
+
+<!ELEMENT author (#PCDATA)>
+
+<!ELEMENT date    (#PCDATA)>
+
+<!ELEMENT version (#PCDATA)>
+
+<!ELEMENT recipe
+    (author*,
+     source?,
+     category*,
+     image?,
+     (ingredients | (group,group+)), 
+     steps?,
+     yield?,
+     comment?,
+     background?)>
+
+<!ATTLIST recipe
+     title    CDATA #REQUIRED
+     subtitle CDATA #IMPLIED
+     id       ID    #IMPLIED>
+
+<!ELEMENT source (#PCDATA|emph)*>
+
+<!ELEMENT category EMPTY>
+<!ATTLIST category name CDATA #REQUIRED>
+<!-- suggested categories:
+  "Appetizer and Snack", "Beverage", "Beef and Pork", "Bread", "Cake",
+  "Candy", "Chicken", "Cookie", "Dessert", "Egg and Cheese",
+  "Fish and Seafood", "Pie", "Salad and Dressing", "Sauce and Relish",
+  "Soup and Stew", "Vegetable"
+-->
+
+<!ELEMENT image EMPTY>
+<!ATTLIST image src CDATA #REQUIRED>
+<!-- image src should be a URI  -->
+
+<!ELEMENT ingredients (ingredient|choices)+>
+<!ATTLIST ingredients id ID #IMPLIED>
+
+<!ELEMENT ingredient ((measure*)|(measure-range*))>
+<!ATTLIST ingredient
+                name      CDATA #REQUIRED 
+                id        ID    #IMPLIED
+                form      CDATA #IMPLIED
+                optional  (yes|no) 'no'>
+
+<!-- ingredient allows multiple measures in order to support measurements
+     such as 1 cup + 2 Tbsp -->
+
+<!ELEMENT measure EMPTY>
+<!ATTLIST measure
+                qty       CDATA #REQUIRED
+                unit      CDATA #IMPLIED
+                type      (alternate|primary) "primary"
+                precision (exact|approximate) "exact">
+
+<!-- measure-range allows measurement ranges such as 1-2 cups -->
+<!ELEMENT measure-range (min-measure+,max-measure+)>
+<!ATTLIST measure-range id ID #IMPLIED>
+
+<!ELEMENT min-measure EMPTY>
+<!ATTLIST min-measure
+                qty       CDATA #REQUIRED
+                unit      CDATA #IMPLIED
+                type      (alternate|primary) "primary"
+                precision (exact|approximate) "exact">
+
+<!ELEMENT max-measure EMPTY>
+<!ATTLIST max-measure
+                qty       CDATA #REQUIRED
+                unit      CDATA #IMPLIED
+                type      (alternate|primary) "primary"
+                precision (exact|approximate) "exact">
+
+<!-- Alternatives for the same ingredient can be listed.
+     There must be at least two possibilities for there to be a choice -->
+<!ELEMENT choices (choice, choice+)>
+<!ATTLIST choices id ID #IMPLIED>
+
+<!-- The choice element allows more complex substitutions than
+     one ingredient for another.  One ingredient or a group of
+     ingredients may be sustituted for another group of ingredients -->
+<!ELEMENT choice (ingredient+, comment?)>
+
+<!-- A list of ingredients can be separated
+     into different groups such as "cake" and "filling". -->
+<!ELEMENT group (ingredients,steps?)>
+<!ATTLIST group name CDATA #REQUIRED
+                id   ID    #IMPLIED>
+
+<!ELEMENT steps (step)+>
+<!ATTLIST steps id ID #IMPLIED>
+
+<!ELEMENT step (#PCDATA | emph)*>
+<!ATTLIST step id ID #IMPLIED>
+
+<!ELEMENT yield EMPTY>
+<!ATTLIST yield
+             serves      CDATA   #IMPLIED
+             count       CDATA   #IMPLIED
+             measurement CDATA   #IMPLIED
+             size        CDATA   #IMPLIED
+             descriptive CDATA   #IMPLIED>
+
+<!-- Story or more info -->
+<!ELEMENT background (#PCDATA | emph)*>
+
+<!-- For comments such as "Grandpa's favorite" or "Goes good with fish". -->
+<!ELEMENT comment (#PCDATA | emph)*>
+
+<!ELEMENT emph (#PCDATA)>

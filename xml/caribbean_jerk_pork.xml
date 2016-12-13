@@ -1,0 +1,84 @@
+<recipe title="Caribbean Jerk Pork">
+  <source>Jenn-Air Creative Cooking</source>
+  <category name="Beef and Pork"/>
+
+  <ingredients>
+    <ingredient name="vegetable oil">
+      <measure qty="1/4" unit="cup"/>
+    </ingredient>
+
+    <ingredient name="dark rum"
+                optional="yes">
+      <measure qty="2" unit="tablespoon"/>
+    </ingredient>
+    
+    <ingredient name="honey">
+      <measure qty="2" unit="tablespoon"/>
+    </ingredient>
+
+    <ingredient name="limes" form="juice only">
+      <measure qty="2"/>
+    </ingredient>
+
+    <ingredient name="chopped green onions">
+      <measure qty="4"/>
+    </ingredient>
+
+    <ingredient name="crushed garlic cloves">
+      <measure qty="4"/>
+    </ingredient>
+
+    <ingredient name="grated fresh ginger">
+      <measure qty="2" unit="tablespoon"/>
+    </ingredient>
+
+    <ingredient name="small hot chili pepper, seeded &amp; chopped">
+      <measure qty="1"/>
+    </ingredient>
+
+    <ingredient name="ground allspice">
+      <measure qty="1" unit="teaspoon"/>
+    </ingredient>
+
+    <ingredient name="ground cinnamon">
+      <measure qty="1" unit="teaspoon"/>
+    </ingredient>
+
+    <ingredient name="ground nutmeg">
+      <measure qty="1" unit="teaspoon"/>
+    </ingredient>
+
+    <ingredient name="salt">
+      <measure qty="1/2" unit="teaspoon"/>
+    </ingredient>
+
+    <ingredient name="freshly ground pepper">
+      <measure qty="1/4" unit="teaspoon"/>
+    </ingredient>
+
+    <ingredient name="boneless pork tenderloin, trimmed of silverskin">
+      <measure qty="1 1/2" unit="pound"/>
+    </ingredient>
+
+  </ingredients>
+
+  <steps>
+    <step>Combine all ingredients, except pork, in a medium bowl.</step>
+    <step>Add pork.</step>
+    <step>Cover bowl, and marinate at least 4 hours or overnight, turning
+          pork occasionally.</step>
+    <step>Preheat grill (to HIGH if using gas or electric grill.</step>
+    <step>Cook 30 to 40 minutes or until meat is cooked through (160&deg;F on
+          meat thermometer), turning every 5 minutes.</step>
+    <step>Set aside for 5 minutes before cutting in to thin, diagonal slices
+          to serve.</step>
+  </steps>
+
+  <yield serves="6"/>
+
+  <comment>Can be surprisingly spicy.  I never use the rum, and I believe it
+           makes fewer than 6 servings.
+  </comment>
+           
+
+</recipe>

@@ -1,0 +1,49 @@
+  <recipe title="Double Layer Pumpkin Pie">
+    <ingredients>
+      <ingredient name="PHILADELPHIA BRAND Cream Cheese" form="softened">
+    	<measure qty="4" unit="ounce"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="COOL WHIP Whipped Topping" form="thawed">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="graham cracker crumb crust">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="milk" form="cold">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="pumpkin">
+    	<measure qty="1" unit="(16 ounce can)"/>
+      </ingredient>
+      <ingredient name="JELL-0 Vanilla Flavor Instant Pudding &amp; Pie
+               Filling">
+    	<measure qty="2" unit="(4-serving size)"/>
+      </ingredient>
+      <ingredient name="cinnamon" form="ground">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="ginger" form="ground">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="cloves" form="ground">
+    	<measure qty="1/4" unit="teaspoon"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>MIX cream cheese, 1 tablespoon milk and sugar in large bowl with
+            wire whisk until smooth. Gently stir in 1 1/2 cups of the whipped
+            topping. Spread onto bottom of crust.</step>
+      <step>POUR 1 cup milk into large bowl.  Add pumpkin, pudding mixes and
+            spices.  Beat with wire whisk until well mixed. (Mixture will be
+            thick.) Spread over cream cheese layer.</step>
+      <step>REFRIGERATE 4 hours or until set.  Garnish with remaining whipped
+            topping.  Store leftover pie in refrigerator.</step>
+    </steps>
+    <yield serves="8"/>
+  </recipe>

@@ -1,0 +1,43 @@
+  <recipe title="Grandma's Soft Sugar Cookies">
+    <source>Doris Holland</source>
+    <category name="Cookie"/>
+    <ingredients>
+      <ingredient name="flour">
+    	<measure qty="4" unit="cup"/>
+      </ingredient>
+      <ingredient name="baking powder">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="baking soda">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1 1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="egg">
+    	<measure qty="2"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="3/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="nutmeg">
+    	<measure qty="3/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="butter">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="sour cream">
+    	<measure qty="3/4" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat oven to 450&deg;F.</step>
+      <step>Grease cookie sheet.</step>
+      <step>Place cookies on sheet.</step>
+      <step>Sprinkle with sugar.</step>
+      <step>Bake 9-10 minutes @ 450&deg;F.</step>
+    </steps>
+  </recipe>

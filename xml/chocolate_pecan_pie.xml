@@ -1,0 +1,48 @@
+  <recipe title="Chocolate Pecan Pie">
+    <ingredients>
+      <choices>
+    	<choice>
+    	  <ingredient name="Baker's German's Sweet Chocolate">
+    	    <measure qty="4" unit="ounce"/>
+    	  </ingredient>
+    	</choice>
+    	<choice>
+    	  <ingredient name="Baker's Semi-Sweet Chocolate">
+    	    <measure qty="4" unit="ounce"/>
+    	  </ingredient>
+    	</choice>
+      </choices>
+      <ingredient name="butter">
+    	<measure qty="2" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1/3" unit="cup"/>
+      </ingredient>
+      <ingredient name="Karo light or dark Corn Syrup">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="egg" form="slightly beaten">
+    	<measure qty="3"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="pecan halves">
+    	<measure qty="1 1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="unbaked pastry shell">
+    	<measure qty="1"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat oven to 350&deg;F</step>
+      <step>Microwave chocolate and margarine in microwavable bowl on high 1
+            to 2 minutes or until margarine is melted, stirring halfway
+            through heating time.  Stir until chocolate is completely
+            melted.</step>
+      <step>Stir in sugar, corn syrup, eggs, and vanilla until well blended.
+            Stir in pecans.  Pour into pastry shell.</step>
+      <step>Bake 50 minutes or until filling is firm 2 inches from edge.
+            Cool on wire rack.</step>
+    </steps>
+  </recipe>

@@ -1,0 +1,96 @@
+<recipe title="Four Onion Soup">
+  <source>Peg Watson</source>
+  <category name="Soup and Stew"/>
+
+  <ingredients>
+    <ingredient name="medium yellow onion">
+      <measure qty="1"/>
+    </ingredient>
+
+    <ingredient name="medium red onion">
+      <measure qty="1"/>
+    </ingredient>
+
+    <ingredient name="medium leek (white portion only)">
+      <measure qty="1"/>
+    </ingredient>
+
+    <ingredient name="green onions with tops">
+      <measure qty="5"/>
+    </ingredient>
+
+    <ingredient name="minced garlic clove">
+      <measure qty="1"/>
+    </ingredient>
+
+    <choices>
+      <choice>
+        <ingredient name="butter">
+          <measure qty="1" unit="tablespoon"/>
+        </ingredient>
+      </choice>
+
+      <choice>
+        <ingredient name="margarine">
+          <measure qty="1" unit="tablespoon"/>
+        </ingredient>
+      </choice>
+    </choices>
+
+    <ingredient name="beef broth">
+      <measure qty="2" unit="can"/>
+    </ingredient>
+
+    <ingredient name="beef consomme">
+      <measure qty="1" unit="can"/>
+    </ingredient>
+
+    <ingredient name="Worcesterchire sauce">
+      <measure qty="1" unit="teaspoon"/>
+    </ingredient>
+
+    <ingredient name="ground nutmeg">
+      <measure qty="1/2" unit="teaspoon"/>
+    </ingredient>
+
+    <ingredient name="ground nutmeg">
+      <measure qty="1/2" unit="teaspoon"/>
+    </ingredient>
+
+    <ingredient name="shredded Swiss cheese">
+      <measure qty="1" unit="cup"/>
+    </ingredient>
+
+    <ingredient name="toasted French bread (3/4 inch thick)">
+      <measure qty="6" unit="slices"/>
+    </ingredient>
+
+    <ingredient name="grated Parmesan cheese"
+                optional="yes">
+      <measure qty="6" unit="tablespoon"/>
+    </ingredient>
+  </ingredients>
+
+  <steps>
+    <step>Slice all onions 1/4" thick.</step>
+    <step>Over medium-low heat, saute onions and garlic in butter for
+          15 minutes, or until tender and golden -- stir occasionally</step>
+    <step>Add broth, consumme, Worcesterchire, and nutmeg.</step>
+    <step>Bring to a boil.</step>
+    <step>Reduce heat; cover &amp; simmer for 30 minutes.</step>
+    <step>Sprinkle 1 tbsp Swiss cheese in the bottom of six oven-proof 8-oz.
+          bowls.</step>
+    <step>Ladle hot soupt into bowls.</step>
+    <step>Top each with a slice of toast.</step>
+    <step>Sprinkle with remaining Swiss cheese (&amp; Parmesan cheese, if 
+          desired).</step>
+    <step>Broil until cheese melts.</step>
+    <step>Serve immediately.</step>
+  </steps>
+
+  <yield serves="6"/>
+
+  <comment>Requires six oven-proof, 8-oz bowls.
+           Not sure of the original source of this.
+  </comment>
+</recipe>

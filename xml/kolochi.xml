@@ -1,0 +1,61 @@
+  <recipe title="Kolochi">
+    <group name="dough">
+      <ingredients>
+      	<ingredient name="flour">
+    	  <measure qty="2" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="dry yeast">
+    	  <measure qty="1" unit="package"/>
+      	</ingredient>
+      	<ingredient name="oleo">
+    	  <measure qty="1/2" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="egg yolks">
+    	  <measure qty="2"/>
+      	</ingredient>
+      	<ingredient name="sour cream">
+    	  <measure qty="1/2" unit="cup"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+        <step>Put flour in mixing bowl. Mix in yeast.  Cut in oleo until
+              crumbly.</step>
+        <step>Add yolks and sour cream. Mix well and form into a ball. Knead
+              on lightly floured board until smooth (5-10 times). Divide
+              into 3 balls. Chill for one hour.</step>
+      </steps>
+    </group>
+    <group name="filling">
+      <ingredients>
+      	<ingredient name="walnuts" form="ground">
+    	  <measure qty="1" unit="pound"/>
+      	</ingredient>
+      	<ingredient name="egg whites">
+    	  <measure qty="8"/>
+      	</ingredient>
+      	<ingredient name="dates" form="chopped">
+    	  <measure qty="1" unit="box"/>
+      	</ingredient>
+      	<ingredient name="sugar">
+    	  <measure qty="1/2" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="vanilla">
+    	  <measure qty="1" unit="teaspoon"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+        <step>Beat egg whites untill stiff.  Mix all ingredients into egg
+              whites.</step>
+        <step>Cook over low heat until hot.  Stir.  Do not boil!  (Will burn
+              easily)</step>
+      </steps>
+    </group>
+    <steps>
+      <step>Roll dough out thinly on board with powdered sugar. Spoon small
+            line of filling at one end and roll until dough overlaps. Cut
+            rolled part from the rest of the dough and place on greased
+            cookie sheet. Repeat process until dough and/or filling is used
+            up.</step>
+      <step>Bake at 350&deg;F for about 25 minutes or until browned.</step>
+    </steps>
+  </recipe>

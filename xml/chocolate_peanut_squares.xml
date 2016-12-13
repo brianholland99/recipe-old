@@ -1,0 +1,41 @@
+  <recipe title="Chocolate Peanut Squares">
+    <ingredients>
+      <ingredient name="margarine">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="Semi-Sweet Chocolate">
+    	<measure qty="6" unit="ounce"/>
+      </ingredient>
+      <ingredient name="coconut flakes">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="graham cracker crumbs">
+    	<measure qty="1 1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="unsalted peanuts" form="chopped">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="cream cheese" form="softened">
+    	<measure qty="16" unit="ounce"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Microwave 3/4 cup margarine and 2 oz. chocolate on high 1 to 2
+            minutes or until melted when stirred, stirring every 30
+            seconds.</step>
+      <step>Stir in crumbs, coconut and peanuts. Press onto bottom of 13x9
+            inch baking pan; chill 30 minutes.</step>
+      <step>Mix cream cheese, sugar, and vanilla until well blended.  Spread
+            over crust; chill 30 minutes.</step>
+      <step>Microwave remaining margarine and chocolate on high 1 to 2
+            minutes or until melted when stirred, stirring every 30
+            seconds.</step>
+      <step>spread over cream cheese layer.  Chill; cut into squares.</step>
+    </steps>
+  </recipe>

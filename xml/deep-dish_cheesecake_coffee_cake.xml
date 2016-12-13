@@ -1,0 +1,57 @@
+  <recipe title="Deep-dish Cheesecake Coffee Cake">
+    <source>Carol Hahn</source>
+    <category name="Cake"/>
+    <group name="filling">
+      <ingredients>
+    	<ingredient name="sugar">
+    	    <measure qty="1/2" unit="cup"/>
+    	</ingredient>
+    	<ingredient name="vanilla">
+    	    <measure qty="1/2" unit="teaspoon"/>
+    	</ingredient>
+    	<ingredient name="egg">
+    	    <measure qty="2"/>
+    	</ingredient>
+    	<ingredient name="cream cheese" form="softened">
+    	    <measure qty="8" unit="ounce"/>
+    	</ingredient>
+      </ingredients>
+      <steps>
+        <step>Beat all ingredients until smooth.</step>
+      </steps>
+    </group>
+    <group name="cake">
+      <ingredients>
+    	<ingredient name="Bisquick baking mix">
+    	    <measure qty="3" unit="cup"/>
+    	</ingredient>
+    	<ingredient name="sugar">
+    	    <measure qty="1/4" unit="cup"/>
+    	</ingredient>
+    	<ingredient name="margarine" form="melted">
+    	    <measure qty="1/4" unit="cup"/>
+    	</ingredient>
+    	<ingredient name="milk">
+    	    <measure qty="1/2" unit="cup"/>
+    	</ingredient>
+    	<ingredient name="strawberry, apricot or raspberry preserves">
+    	    <measure qty="1/4" unit="cup"/>
+    	</ingredient>
+      </ingredients>
+    </group>
+    <steps>
+      <step>Heat oven to 375&deg;F.</step>
+      <step>Mix baking mix, sugar, margarine and milk; beat vigorously 30
+            sec.</step>
+      <step>Turn dough onto surface well dusted with baking mix.</step>
+      <step>Knead 30 times.  Pat dough evenly in bottom and up side of
+            ungreased round pan 9x1 1/2".</step>
+      <step>Prepare Cheese filling; pour over dough.</step>
+      <step>Bake until edge is golden brown and filling is set, about 30
+            min.</step>
+      <step>Cool 10 min.  Spread with preserves.  Serve warm.</step>
+    </steps>
+    <yield serves="8"/>
+    <comment>High altitude:  Heat oven to 400&deg;F; Bake 30 to 35 min.  Cheese
+             filling may swirl through coffee cake during baking.</comment>
+  </recipe>

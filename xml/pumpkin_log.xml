@@ -1,0 +1,62 @@
+  <recipe title="Pumpkin Log">
+    <source>Joyce Stevens</source>
+    <category name="Dessert"/>
+    <group name="cake">
+      <ingredients>
+      	<ingredient name="egg">
+      	  <measure qty="3"/>
+      	</ingredient>
+      	<ingredient name="pumpkin">
+      	  <measure qty="2/3" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="cinnamon">
+      	  <measure qty="1" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="sugar">
+      	  <measure qty="1" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="flour">
+      	  <measure qty="3/4" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="baking soda">
+      	  <measure qty="1/2" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="walnuts" form="chopped" optional="yes">
+      	  <measure qty="1" unit="cup"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+      	<step>Mix cake ingredients, except for nuts, well.</step>
+      	<step>Line a 10x15 jelly roll pan with wax paper.</step>
+      	<step>Pour cake mixture into pan and spinkle with nuts.</step>
+      	<step>Bake at 375&deg;F for 15 minutes.</step>
+      	<step>Turn onto a dish towel sprinkled with granulated sugar as soon
+              as it comes out of the oven.</step>
+      	<step>Remove wax paper and roll immediately while hot.</step>
+      	<step>Cool completely in towel.</step>
+      </steps>
+    </group>
+    <group name="filling">
+      <ingredients>
+      	<ingredient name="butter" form="softened">
+      	  <measure qty="2" unit="tablespoon"/>
+      	</ingredient>
+      	<ingredient name="cream cheese" form="softened">
+      	  <measure qty="8" unit="ounce"/>
+      	</ingredient>
+      	<ingredient name="vanilla">
+      	  <measure qty="3/4" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="confectioner's sugar">
+      	  <measure qty="1" unit="cup"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+        <step>Beat filling well with electric mixer.</step>
+      </steps>
+    </group>
+    <steps>
+      <step>Unroll cake and fill with cream cheese mixture.</step>
+      <step>Roll like a jelly roll and keep refrigerated.</step>
+    </steps>
+  </recipe>

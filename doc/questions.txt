@@ -1,0 +1,67 @@
+
+Oh by the way, the libxml2 package has a program called xmllint.
+xmllint --valid --noout 
+will check the validity of the XML against the DTD and
+out put errors.  It caught one error in some new stuff since
+I had put in "Quick & Easy Baked Beans" and it caught the
+"&" which either had to be replaced "&amp;" if I wanted
+the "&".
+
+
+I added Jim's patch to the XSL script for HTML.
+We have now have 53 recipes.
+------------------------------------------------
+
+measure element:
+
+It also complained about all of the recipes where I had an ingredient
+with mo measure.  This was for things like chocolate syrup for
+topping.  I think it may be an error in the parsing unless
+I misunderstand the notation for DTDs.
+
+The ingredient definition was
+
+<!ELEMENT ingredient ((measure*)|(min-measure+,max-measure+))>
+
+Which I take as either 0 or more mesure elements or one or more
+of each min-measure and max-measure.
+
+I chnaged it to
+
+<!ELEMENT ingredient (measure*|(min-measure+,max-measure+))
+
+to see if the lack of a paren would make a difference but
+only got it to work by adding a '?'.
+
+<!ELEMENT ingredient (measure*|(min-measure+,max-measure+))?>
+
+------------------------------------------------
+
+yield element:
+
+The yield element still feels strange. I had a recipe that
+said "Serves 8-12". Maybe a simple string will do. It can't be used
+to figure out how much to make to do something like feed 20, but
+it can be complex anyway.
+
+------------------------------------------------
+
+measure's unit attribute:
+
+In the documentation, we had originally stated that the units should
+be spelled out instead of abbrieviated.  I fixed Jim's samples up to
+follow this but what do we want to do?  Either an XSL can substitute
+the abbreviation for those that want it rendered as an abbrieviation
+or we can start with a standard set of abbreviations and an XSL script
+could convert it to the full thing or a different abbrievation
+depending on the preference of the user.  If metric is used, I expect
+abbrieviations to be the standard such as "cc", "kg", etc..  
+
+So I suggest a standard set of abbrieviations for metric.  At
+the time that we first documented this we hadn't spent too much
+time thinking about metric so didn't say anything about this.
+
+I can live with either for the non-metric as long as
+it's consistent.  I have been used to tsp and tbsp for
+teaspoon and tablespoon but I remember that when we were
+first discussing it, Elmo was familiar with other.

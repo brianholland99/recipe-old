@@ -1,0 +1,43 @@
+  <recipe title="Caramel Brownies">
+    <ingredients>
+      <choices>
+    	<choice>
+    	  <ingredient name="German chocolate cake mix">
+    	    <measure qty="1" unit="box"/>
+    	  </ingredient>
+    	</choice>
+    	<choice>
+    	  <ingredient name="Devil foods cake mix">
+    	    <measure qty="1" unit="box"/>
+    	  </ingredient>
+    	</choice>
+      </choices>
+      <ingredient name="butter">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="chocolate chips">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="sweetened condensed milk">
+    	<measure qty="1" unit="can"/>
+      </ingredient>
+      <ingredient name="caramels">
+    	<measure qty="1" unit="pound"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Melt the caramels and half the can of condensed milk in a pan on
+            the stove top.</step>
+      <step>Mix the butter (melted), the cake mix and the rest of the
+            condensed milk.</step>
+      <step>Spread half the cake mix on the bottom of a greased 9x13
+            pan.</step>
+      <step>Bake at 350&deg;F for 6-8 minutes.</step>
+      <step>Bring out of the oven and put the chocolate chips over the mix,
+            then pour the melted caramels on top of this and finish up by
+            crumbling the rest of the cake mixture on the top.</step>
+      <step>Finish baking for 15-18 minutes.</step>
+      <step>Let cool completely before cutting or the caramel will ooze
+            out.</step>
+    </steps>
+  </recipe>

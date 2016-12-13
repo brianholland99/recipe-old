@@ -1,0 +1,48 @@
+  <recipe title="Molasses Oatmeal Raisin Cookies">
+    <source>Doris Holland</source>
+    <category name="Cookie"/>
+    <ingredients>
+      <ingredient name="Crisco shortening">
+        <measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+        <measure qty="1 1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="egg">
+        <measure qty="2"/>
+      </ingredient>
+      <ingredient name="molasses">
+        <measure qty="1/3" unit="cup"/>
+      </ingredient>
+      <ingredient name="flour">
+        <measure qty="1 1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="baking soda">
+        <measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="salt">
+        <measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="cinnamon">
+        <measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="oatmeal" form="uncooked">
+        <measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="walnuts" form="chopped">
+        <measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="raisins">
+        <measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="vanilla">
+        <measure qty="1" unit="teaspoon"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Preheat oven to 400&deg;F.</step>
+      <step>Combine ingredients.</step>
+      <step>Drop cookies onto greased baking sheet.</step>
+      <step>Bake for 8 to 10 minutes.</step>
+    </steps>
+  </recipe>

@@ -1,0 +1,11 @@
+XML Recipe
+
+FILE-LIST.txt    - This file
+Makefile         -
+caution.png      - PNG image file for stress test exanples
+recipes.dtd      - Current Recipe DTD
+recipe_info.html - Documentation of XML format and files
+testdata         - Stress test examples (Exercise all elements)
+xml              - Actual recipes
+xsd              - XML schema (Draft)
+xsl              - XSLT scripts for transforming XML documents

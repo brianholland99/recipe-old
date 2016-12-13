@@ -1,0 +1,34 @@
+  <recipe title="Cheesecake">
+    <ingredients>
+      <ingredient name="cream cheese" form="(room temperature)">
+    	<measure qty="24" unit="ounce"/>
+      </ingredient>
+      <ingredient name="sour cream" form="(room temperature)">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="whipping cream" form="(room temperature)">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="flour">
+    	<measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="egg">
+    	<measure qty="4"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Whip cream cheese, sour cream, sugar, and flour until
+            creamy.</step>
+      <step>Add eggs.</step>
+      <step>Add whipping cream and vanilla.  Beat 2 minutes.</step>
+      <step>Bake in oven at 300&deg;F for 1 hour.</step>
+      <step>Turn oven off and let stand in oven for 1 more hour.</step>
+      <step>Refrigerate for at least 5 hours.</step>
+    </steps>
+  </recipe>

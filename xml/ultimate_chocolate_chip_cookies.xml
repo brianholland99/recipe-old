@@ -1,0 +1,62 @@
+  <recipe title="Ultimate Chocolate Chip Cookies">
+    <source>Crisco</source>
+    <category name="Cookie"/>
+    <ingredients>
+      <ingredient name="Butter Flavored Crisco">
+        <measure qty="3/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="light brown sugar" form="firmly packed">
+        <measure qty="1 1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="milk">
+        <measure qty="2" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="vanilla">
+        <measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="egg">
+        <measure qty="1"/>
+      </ingredient>
+      <ingredient name="flour">
+        <measure qty="1 3/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="salt">
+        <measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="baking soda">
+        <measure qty="3/4" unit="teaspoon"/>
+      </ingredient>
+      <choices>
+        <choice>
+          <ingredient name="Hershey's Semi-Sweet Chocolate Chips">
+            <measure qty="1" unit="cup"/>
+          </ingredient>
+          <ingredient name="pecans" form="coarsely chopped">
+            <measure qty="1" unit="cup"/>
+          </ingredient>
+        </choice>
+        <choice>
+          <ingredient name="Hershey's Semi-Sweet Chocolate Chips">
+            <measure qty="1 1/2" unit="cup"/>
+          </ingredient>
+        </choice>
+      </choices>
+    </ingredients>
+    <steps>
+      <step>Heat oven to 375&deg;F.</step>
+      <step>Combine Crisco, light brown sugar, milk, and vanilla in large
+            bowl. Beat at medium speed of electric mixer until well blended.
+            Beat egg into creamed mixture.</step>
+      <step>Combine flour, salt, and baking soda. Mix into creamed mixture
+            just until blended. Stir in chocolate chips and pecan
+            pieces.</step>
+      <step>Drop rounded tablespoons of dough 2 inches apart onto ungreased
+            baking sheet.</step>
+      <step>Bake one baking sheet at a time at 375&deg;F for 8 to 10 minutes
+            for chewy cookies (cookies will appear moist -- <emph>do not
+            overbake</emph>) or 11 to 13 minutes for crisp cookies. Cool 2
+            minutes on baking sheet. Place sheets of foil on countertop.
+            Remove cookies to foil to cool completely.</step>
+    </steps>
+    <yield count="36"/>
+  </recipe>

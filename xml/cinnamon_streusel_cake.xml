@@ -1,0 +1,52 @@
+  <recipe title="Cinnamon Streusel Cake">
+    <source>Carol Hahn</source>
+    <category name="Cake"/>
+    <group name="cake">
+      <ingredients>
+    	<ingredient name="Duncan Himes yellow cake mix">
+    	  <measure qty="1" unit="box"/>
+    	</ingredient>
+    	<ingredient name="vanilla instant pudding">
+    	  <measure qty="1" unit="(4 serving size box)"/>
+    	</ingredient>
+    	<ingredient name="Crisco oil">
+    	  <measure qty="2" unit="tablespoon"/>
+    	</ingredient>
+    	<ingredient name="water">
+    	  <measure qty="1 1/3" unit="cup"/>
+    	</ingredient>
+    	<ingredient name="egg">
+    	  <measure qty="2"/>
+    	</ingredient>
+      </ingredients>
+    </group>
+    <group name="Streusel">
+      <ingredients>
+    	<ingredient name="flour">
+    	  <measure qty="1/2" unit="cup"/>
+    	</ingredient>
+    	<ingredient name="brown sugar">
+    	  <measure qty="1/2" unit="cup"/>
+    	</ingredient>
+    	<ingredient name="cinnamon">
+    	  <measure qty="2" unit="teaspoon"/>
+    	</ingredient>
+    	<ingredient name="butter">
+    	  <measure qty="2" unit="tablespoon"/>
+    	</ingredient>
+      </ingredients>
+    </group>
+    <steps>
+      <step>Preheat oven to 375&deg;F.</step>
+      <step>In a large bowl blend cake mix, pudding, oil, water and
+            eggs. Beat 2 minutes.</step>
+      <step>Spread 3/4 of butter evenly in greased and floured 10" tube
+            pan.</step>
+      <step>Combine streusel ingredients.</step>
+      <step>Sprinkle 2/3 cups of mixture over batter.</step>
+      <step>Then add rest of the batter and top with remaining streusel.</step>
+      <step>Bake 40-50 min.</step>
+    </steps>
+    <comment>Altitude - Stir 1/4 cup flour into mix.  Mix as directed
+             using 1 1/2 cups water.  Bake at 400 for 35-40 min.</comment>
+  </recipe>

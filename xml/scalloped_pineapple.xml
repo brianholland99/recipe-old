@@ -1,0 +1,33 @@
+  <recipe title="Scalloped Pineapple">
+    <source>Carol Hahn</source>
+    <ingredients>
+      <ingredient name="egg" form="well-beaten">
+    	<measure qty="3"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="margarine">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="bread">
+    	<measure qty="4" unit="slice"/>
+      </ingredient>
+      <ingredient name="pineapple" form="crushed">
+    	<measure qty="1" unit="20-ounce can"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Break bread into small pieces</step>
+      <step>Beat eggs and add other ingredients including juice from
+            pineapple</step>
+      <step>Bake at 350&deg;F for 45 minutes.</step>
+    </steps>
+    <yield measurement="1 1/2 quarts"/>
+  </recipe>

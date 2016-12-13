@@ -1,0 +1,72 @@
+  <recipe title="Chocolate Cheesecake">
+    <source>Carol Hahn</source>
+    <group name="crust">
+      <ingredients>
+      	<ingredient name="graham cracker crumbs">
+    	  <measure qty="1 1/2" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="butter" form="melted">
+    	  <measure qty="1/3" unit="cup"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+        <step>Mix well, press firmly into bottom of 9" springform pan. Bake
+              at 350&deg;F for 6 minutes.</step>
+      </steps>
+    </group>
+    <group name="cheesecake">
+      <ingredients>
+      	<ingredient name="semi-sweet chocolate morsels" form="melted">
+    	  <measure qty="1 1/3" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="cream cheese" form="softened">
+    	  <measure qty="24" unit="ounce"/>
+      	</ingredient>
+      	<ingredient name="sugar">
+    	  <measure qty="1 1/2" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="vanilla">
+    	  <measure qty="1 1/2" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="eggs">
+    	  <measure qty="3"/>
+      	</ingredient>
+      	<ingredient name="cocoa">
+    	  <measure qty="1" unit="tablespoon"/>
+      	</ingredient>
+      	<ingredient name="sour cream">
+    	  <measure qty="8" unit="ounce"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+      	<step>Beat cream cheese on high until fluffy. Add sugar and beat
+              well.</step>
+      	<step>Add eggs one at a time. Add melted chocolate, cocoa, vanilla
+              and mix well. Add sour cream. Pour into pan. Bake at 300&deg;F
+              for 1 hour and 40 minute.</step>
+      	<step>Let cool to room temp. Use knife to loosen sides. Chill for 8
+              hours.</step>
+      </steps>
+    </group>
+    <group name="whipped cream frosting">
+      <ingredients>
+      	<ingredient name="whipping cream">
+    	  <measure qty="1 1/2" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="cocoa">
+    	  <measure qty="3" unit="tablespoon"/>
+      	</ingredient>
+      	<ingredient name="powdered sugar">
+    	  <measure qty="2" unit="tablespoon"/>
+      	</ingredient>
+      	<ingredient name="vanilla">
+    	  <measure qty="1" unit="teaspoon"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+        <step>Beat on high until stiff peaks form.</step>
+        <step>Spread whipped cream topping on top of cake. Garnish as
+              desired.</step>
+      </steps>
+    </group>
+  </recipe>

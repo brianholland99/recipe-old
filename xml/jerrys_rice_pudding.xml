@@ -1,0 +1,36 @@
+  <recipe title="Jerry's Rice Pudding">
+    <source>Carol Hahn</source>
+    <ingredients>
+      <ingredient name="milk">
+    	<measure qty="2" unit="quart"/>
+      </ingredient>
+      <ingredient name="half and half">
+    	<measure qty="1" unit="pint"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="5" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="rice">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="pure vanilla">
+    	<measure qty="1" unit="ounce"/>
+      </ingredient>
+      <ingredient name="eggs">
+    	<measure qty="3"/>
+      </ingredient>
+      <ingredient name="vanilla pudding">
+    	<measure qty="1" unit="large box"/>
+      </ingredient>
+      <ingredient name="cinnamon"/>
+    </ingredients>
+    <steps>
+      <step>Put milk, half and half, sugar, rice, and vanilla all
+            together.</step>
+      <step>Cook over medium heat.  Cook until rice done.</step>
+      <step>Gradually add pudding until it thickens.</step>
+      <step>Add well beaten eggs when mixture stops boiling; take off the
+            stove to add eggs or it will curdle.</step>
+      <step>Pour in bowl and add cinnamon.</step>
+    </steps>
+  </recipe>

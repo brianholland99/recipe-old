@@ -1,0 +1,39 @@
+  <recipe title="Chocolate Raspberry Truffles">
+    <source>Jackie Heath</source>
+    <ingredients>
+      <ingredient name="bitter sweet chocolate">
+    	<measure qty="22" unit="ounce"/>
+      </ingredient>
+      <ingredient name="unsalted butter">
+    	<measure qty="6" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="seedless raspberry jam">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <choices>
+        <choice>
+          <ingredient name="chambord">
+            <measure qty="2" unit="tablespoon"/>
+          </ingredient>
+        </choice>
+        <choice>
+          <ingredient name="raspberry brandy">
+            <measure qty="2" unit="tablespoon"/>
+          </ingredient>
+        </choice>
+      </choices>
+    </ingredients>
+    <steps>
+      <step>Combine 10 ounce chocolate and butter in a glass bowl.</step>
+      <step>Beat 1 to 1 1/2 minutes on high.</step>
+      <step>Stir in jam and chambord. Cover and refrigerate 4 hours.</step>
+      <step>Scrape into 1 inch balls w/ melon baller.  Put in
+            freezer until firm.</step>
+      <step>Place remaining 12 ounce of chocolate into microwave for
+            3 to 3 1/2 minutes or until melted. Dip truffles in
+            chocolate. Place on paper lined baking pan.</step>
+      <step>Refrigerate 1/2 hour. Put in air-tight container.</step>
+      <step>Store in refrigerator 2 weeks or freezer for 1 month.</step>
+    </steps>
+    <yield count="24"/>
+  </recipe>

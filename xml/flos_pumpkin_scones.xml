@@ -1,0 +1,32 @@
+  <recipe title="Flo's Pumpkin Scones">
+    <source>Paul "Chucky" Watson</source>
+    <ingredients>
+      <ingredient name="butter">
+    	<measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="egg">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="pumpkin" form="mashed">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="self-raising flour">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Put butter, salt and sugar in mix master, then add egg
+    	    followed by mashed pumpkin.</step>
+      <step>Finally add by hand sifted self-raising flour. Don't handle
+    	    mix too much.</step>
+      <step>Drop onto baking sheet.(~1/2 cup per scone)</step>
+      <step>Cook in very hot oven 250&deg;C/450&deg;F for 15-20 minutes.</step>
+    </steps>
+    <comment>If using very dry pumpkin, may need 2 taplespoons milk.</comment>
+  </recipe>

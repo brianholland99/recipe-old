@@ -1,0 +1,46 @@
+  <recipe title="Kolachi">
+    <group name="dough">
+      <ingredients>
+      	<ingredient name="cream cheese">
+    	  <measure qty="16" unit="ounce"/>
+      	</ingredient>
+      	<ingredient name="margarine">
+    	  <measure qty="1" unit="pound"/>
+      	</ingredient>
+      	<ingredient name="flour">
+    	  <measure qty="4" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="salt">
+    	  <measure qty="1" unit="pinch"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+        <step>Mix and cool in refrigerator.</step>
+      </steps>
+    </group>
+    <group name="filling">
+      <ingredients>
+      	<ingredient name="walnuts" form="ground">
+    	  <measure qty="1" unit="pound"/>
+      	</ingredient>
+      	<ingredient name="vanilla">
+    	  <measure qty="1" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="sugar">
+    	  <measure qty="3/4" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="half and half cream">
+    	  <measure qty="1/2" unit="cup"/>
+      	</ingredient>
+      </ingredients>
+    </group>
+    <steps>
+      <step>Use confectioner's sugar ro roll out dough. Don't roll out all at
+            once.</step>
+      <step>Cur in pieces 2 inch by 2 1/2 inch. Drop filling by 1/2 teaspoon on
+            cut pieces.</step>
+      <step>Roll after spreading the filling.</step>
+      <step>Place folded side down on greased cookie sheet.</step>
+      <step>Bake at 350&deg;F for 20-25 minutes.</step>
+    </steps>
+  </recipe>

@@ -1,0 +1,72 @@
+  <recipe title="Pumpkin Roll">
+    <source>Doris Holland</source>
+    <category name="Dessert"/>
+    <group name="cake">
+      <ingredients>
+      	<ingredient name="egg">
+      	  <measure qty="3"/>
+      	</ingredient>
+      	<ingredient name="sugar">
+      	  <measure qty="1" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="pumpkin">
+      	  <measure qty="2/3" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="lemon juice">
+      	  <measure qty="1" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="flour">
+      	  <measure qty="3/4" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="baking powder">
+      	  <measure qty="1" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="cinnamon">
+      	  <measure qty="2" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="ginger">
+      	  <measure qty="1/2" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="nutmeg">
+      	  <measure qty="1/2" unit="teaspoon"/>
+      	</ingredient>
+      	<ingredient name="salt">
+      	  <measure qty="1/2" unit="teaspoon"/>
+      	</ingredient>
+        <ingredient name="walnuts" form="finely-chopped" optional="yes">
+          <measure qty="1" unit="cup"/>
+        </ingredient>
+      </ingredients>
+      <steps>
+      	<step>Beat eggs and gradually add sugar.</step>
+      	<step>Stir in pumpkin and lemon juice.</step>
+      	<step>Separately mix remaining dry ingredients and fold into
+              pumpkin mixture.</step>
+      	<step>Spread onto greased and floured cookie sheet.</step>
+      	<step>Top with chopped walnuts.</step>
+      	<step>Bake at 370&deg;F for 15 minutes.</step>
+      	<step>Turn onto towel sprinkled with sugar and roll up.</step>
+      	<step>Let cool completely.</step>
+      </steps>
+    </group>
+    <group name="filling">
+      <ingredients>
+      	<ingredient name="butter" form="softened">
+      	  <measure qty="4" unit="tablespoon"/>
+      	</ingredient>
+      	<ingredient name="cream cheese" form="softened">
+      	  <measure qty="6" unit="ounce"/>
+      	</ingredient>
+      	<ingredient name="vanilla">
+      	  <measure qty="1/2" unit="teaspoon"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+        <step>Beat filling well with electric mixer.</step>
+      </steps>
+    </group>
+    <steps>
+      <step>Unroll cake and fill with cream cheese mixture.</step>
+      <step>Roll like a jelly roll and keep refrigerated.</step>
+    </steps>
+  </recipe>

@@ -1,0 +1,32 @@
+  <recipe title="No Bake Cookies">
+    <ingredients>
+      <ingredient name="sugar">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="butter">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="quick Oats">
+    	<measure qty="3" unit="cup"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="nuts" form="chopped">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="peanut butter">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Combine sugar, butter and milk.  Boil for 2 minutes.</step>
+      <step>Remove from heat and add vanilla and peanut butter.</step>
+      <step>Stir to dissolve peanut butter.</step>
+      <step>Add nuts and oatmeal.</step>
+      <step>Drop by teaspoon on waxed paper.</step>
+    </steps>
+  </recipe>

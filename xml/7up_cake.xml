@@ -1,0 +1,32 @@
+  <recipe title="7-up Cake">
+    <source>Carol Hahn</source>
+    <category name="Cake"/>
+    <ingredients>
+      <ingredient name="butter">
+    	<measure qty="1 1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="3" unit="cup"/>
+      </ingredient>
+      <ingredient name="eggs">
+    	<measure qty="5"/>
+      </ingredient>
+      <ingredient name="flour">
+    	<measure qty="3" unit="cup"/>
+      </ingredient>
+      <ingredient name="lemon extract">
+    	<measure qty="2" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="7-up">
+    	<measure qty="3/4" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Cream together butter and sugar for 20 minutes.</step>
+      <step>Add eggs, one at a time.</step>
+      <step>Add flour and lemon extract.</step>
+      <step>Fold in 7-up.</step>
+      <step>Pour into a well-greased 12 cup bundt pan.</step>
+      <step>Bake @ 325&deg;F for 1 to 1 1/4 hours.</step>
+    </steps>
+  </recipe>

@@ -1,0 +1,45 @@
+  <recipe title="Toll House Pie">
+    <source>Nestle</source>
+    <category name="Pie"/>
+    <ingredients>
+      <ingredient name="pie shell*" form="unbaked">
+	  <measure qty="1" unit="9-inch"/>
+      </ingredient>
+      <ingredient name="eggs">
+	  <measure qty="2"/>
+      </ingredient>
+      <ingredient name="all-purpose flour">
+	  <measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+	  <measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="brown sugar" form="firmly packed">
+	  <measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="butter" form="melted and cooled to room temperature">
+	  <measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="Nestle Toll House semi-sweet chocolate morsels">
+	  <measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="walnuts" form="chopped" optional="yes">
+	  <measure qty="1" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Preheat oven to 325&deg;F.</step>
+      <step>In large bowl, beat eggs until foamy.</step>
+      <step>Add flour, sugar and brown sugar; beat until well blended.</step>
+      <step>Blend in melted butter.</step>
+      <step>Stir in Nestle Toll House semi-sweet chocolate morsels and
+	    walnuts.</step>
+      <step>Pour into pie shell.*</step>
+      <step>Bake at 325&deg;F for 1 hour.</step>
+      <step>Serve warm with whipped cream or ice cream, if desired.</step>
+    </steps>
+    <yield count="1" size="9-inch"/>
+    <comment>*If using frozen pie shell, it's necessary to use deep dish
+	     style, thawed. Place on cookie sheet and bake additional 10
+	     minutes.</comment>
+  </recipe>

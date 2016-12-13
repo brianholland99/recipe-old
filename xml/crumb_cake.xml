@@ -1,0 +1,41 @@
+  <recipe title="Crumb Cake">
+    <source>Carol Hahn</source>
+    <category name="Cake"/>
+    <ingredients>
+      <ingredient name="butter">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="flour">
+    	<measure qty="3" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="cinnamon">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="egg">
+    	<measure qty="3"/>
+      </ingredient>
+      <ingredient name="baking powder">
+    	<measure qty="3" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Blend together butter, flour, sugar and salt.</step>
+      <step>Reserve 1 cup of mixture to which is added cinnamon for
+            topping.</step>
+      <step>Add the rest of the ingredients to the main mixture</step>
+      <step>Pour in pan and add topping.</step>
+      <step>Bake @ 350&deg;F for 40-45 minutes.</step>
+    </steps>
+  </recipe>

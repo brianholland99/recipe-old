@@ -1,0 +1,76 @@
+  <recipe title="Spicy Orange Nut Bread">
+    <source>Carol Hahn</source>
+    <ingredients>
+      <ingredient name="orange rind" form="ground">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="water">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="2" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="flour">
+    	<measure qty="2 1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="baking powder">
+    	<measure qty="2 1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="3/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="cinnamon">
+    	<measure qty="3/8" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="2/3" unit="cup"/>
+      </ingredient>
+      <ingredient name="oil">
+    	<measure qty="3" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="egg" form="unbeaten">
+    	<measure qty="2"/>
+      </ingredient>
+      <ingredient name="orange extract">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="almond extract">
+    	<measure qty="2" unit="drop"/>
+      </ingredient>
+      <ingredient name="lemon extract">
+    	<measure qty="2" unit="drop"/>
+      </ingredient>
+      <ingredient name="walnuts" form="coarsely chopped">
+    	<measure qty="3/4" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>In advance, grind or chop in blender enough orange rind (about
+            2 to 3 medium sized oranges) to measure 1 cup.</step>
+      <step>Add water and sugar, heat to boiling, then cover and cook over
+            low heat 10 to 15 minutes, until rind is tender and practically
+            all of the water is absorbed.</step>
+      <step>Cool.  Sift dry ingredients into mixing bowl.</step>
+      <step>Add milk, oil or shortening, eggs, and flavorings.</step>
+      <step>Beat at low speed just until well mixed.</step>
+      <step>Mix in cooled orange peel and walnuts.</step>
+      <step>Divide the soft batter evenly in two greased 8x4x2 1/2-inch
+            loaf pans, or use one 9x5x3-inch pan.</step>
+      <step>Sprinkle tops generously with a mixture of 1/2 tsp cinnamon and
+            2 tbsp sugar.</step>
+      <step>Bake at 350&deg;F, allowing 45 to 50 minutes for smaller pan, 55 to
+            60 minutes for one larger pan, until well browned and done when
+            tested.</step>
+      <step>Turn out and cool on rack.</step>
+    </steps>
+    <comment>For breakfast or coffee break or with luncheon fruit salad,
+             serve this fragrant bread plain with butter, or waffle toasted.
+             To "waffle" it, toast unbuttered half-inch slices in a hot
+             waffle baker.</comment>
+  </recipe>

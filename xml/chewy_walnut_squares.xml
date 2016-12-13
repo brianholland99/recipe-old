@@ -1,0 +1,34 @@
+  <recipe title="Chewy Walnut Squares">
+    <ingredients>
+      <ingredient name="egg">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="brown sugar" form="firmly packed">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="all-purpose flour">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="baking soda">
+    	<measure qty="1/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="walnuts" form="coarsely chopped">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Grease an 8-inch square pan.</step>
+      <step>Stir together the egg, brown sugar, and vanilla.</step>
+      <step>Quickly stir in flour, baking soda, and salt.</step>
+      <step>Add walnuts.</step>
+      <step>Spread in pan and bake at 350&deg;F for 18 to 20 minutes.
+           (Cookies should be soft in center when taken from oven.)</step>
+      <step>Leave in pan and cut into 2-inch squares.</step>
+    </steps>
+  </recipe>

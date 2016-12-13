@@ -1,0 +1,37 @@
+  <recipe title="Peach-Pineapple Cobbler">
+    <source>S. Pike -> Carol Hahn</source>
+    <category name="Dessert"/>
+    <ingredients>
+      <ingredient name="self-rising flour">
+    	<measure qty="1 1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1 1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1 1/2" unit="cup"/>
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="peach pie filling">
+    	<measure qty="1" unit="can"/>
+      </ingredient>
+      <ingredient name="pineapple" form="crushed">
+    	<measure qty="1" unit="16-ounce can"/>
+      </ingredient>
+      <ingredient name="butter">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Mix together flour, salt, and 1 1/2 cup sugar.</step>
+      <step>Mix in milk,</step>
+      <step>Spoon in peach pie filling and crushed pineapple - juice
+            included.</step>
+      <step>Dot butter on top of mixture.</step>
+      <step>Sprinkle with remaining cup of sugar.</step>
+      <step>Bake at 325-350&deg;F for 45-60 minutes.</step>
+    </steps>
+  </recipe>

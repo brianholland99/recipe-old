@@ -1,0 +1,63 @@
+  <recipe title="Vegetable Lasagne">
+    <source>Karen Agee</source>
+    <ingredients>
+      <ingredient name="lasagne nodles">
+    	<measure qty="9"/>
+      </ingredient>
+      <ingredient name="medium onion" form="chopped">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="zucchini" form="sliced">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="broccoli florets" form="sliced and steamed">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="carrot" form="grated">
+        <measure-range>
+    	  <min-measure qty="1/2" unit="cup"/>
+    	  <max-measure qty="3/4" unit="cup"/>
+        </measure-range>
+      </ingredient>
+      <ingredient name="frozen spinach" form="thawed and drained">
+    	<measure qty="1/2" unit="package"/>
+      </ingredient>
+      <ingredient name="spaghetti sauce">
+    	<measure qty="1" unit="jar"/>
+      </ingredient>
+      <ingredient name="ricotta cheese">
+    	<measure qty="15" unit="ounce"/>
+      </ingredient>
+      <ingredient name="egg">
+    	<measure qty="2"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1/2" unit="teaspoom"/>
+      </ingredient>
+      <ingredient name="parmesan cheese" form="grated">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="dried basil">
+    	<measure qty="2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="mozzarella cheese" form="grated">
+    	<measure qty="1/2" unit="pound"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Preheat oven to 350&deg;F</step>
+      <step>Saute chopped onions and zucchini in 3 tablespoons of
+            olive oil until tender.</step>
+      <step>Beat eggs; add to ricotta cheese.</step>
+      <step>Add basil, parmesan cheese, and salt to egg-ricotta mixture.</step>
+      <step>Spread 1/2 cup spaghetti sauce into bottom of 9x13 inch pan.</step>
+      <step>Place one layer of noodles on sauce; spread all of the ricotta
+            mixture onto the noodles.</step>
+      <step>Place another layer of noodles atop the ricotta mixture; pour
+            2 cups of sauce onto noodles; arrange all of the vegetables on
+            top of sauce.</step>
+      <step>Add another layer of noodles; pour the remaining sauce over
+            the final layer of noodles and top with mozzarella cheese.</step>
+      <step>Bake 45 to 60 minutes.  Let cool 10 minutes before serving.</step>
+    </steps>
+  </recipe>

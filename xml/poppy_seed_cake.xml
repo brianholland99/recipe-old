@@ -1,0 +1,27 @@
+  <recipe title="Poppy Seed Cake">
+    <category name="Cake"/>
+    <ingredients>
+      <ingredient name="Duncan Hines white cake mix">
+    	<measure qty="1" unit="box"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="eggs">
+    	<measure qty="4"/>
+      </ingredient>
+      <ingredient name="oil">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="instant lemon pudding">
+    	<measure qty="1" unit="package"/>
+      </ingredient>
+      <ingredient name="poppy seed filling">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Mix together, pour into ungrased pan and bake at 350&deg;F for
+            1 hour.</step>
+    </steps>
+  </recipe>

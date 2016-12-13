@@ -1,0 +1,35 @@
+  <recipe title="Taco Dip">
+    <ingredients>
+      <ingredient name="sour cream">
+    	<measure qty="16" unit="ounce"/>
+      </ingredient>
+      <ingredient name="cream cheese">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="taco sauce">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="taco seasoning">
+    	<measure qty="1" unit="package"/>
+      </ingredient>
+      <ingredient name="sharp cheese" form="grated">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="pepper" form="diced">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="tomato" form="diced">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="black olives" form="chopped"/>
+      <ingredient name="lettuce">
+    	<measure qty="1/2" unit="head"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Mix sour cream and cream cheese together.</step>
+      <step>Add taco seasoning and beat well.</step>
+      <step>Put dip in bowl, Layer vegetables over dip. Top with cheese.
+            Pour sauce over cheese.</step>
+    </steps>
+  </recipe>

@@ -1,0 +1,30 @@
+  <recipe title="Peanut Butter Pie">
+    <ingredients>
+      <ingredient name="cream cheese" form="softened">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="peanut butter">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="confectioner's sugar">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="Cool Whip">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="graham cracker crust">
+    	<measure qty="1" unit="9-inch"/>
+      </ingredient>
+      <ingredient name="chocolate syrup"/>
+    </ingredients>
+    <steps>
+      <step>Beat cream cheese and peanut butter together.</step>
+      <step>While beating add sugar and milk.</step>
+      <step>After mixed add Cool Whip.</step>
+      <step>Pour into crust. Freeze overnight.</step>
+      <step>Serve frozen with chocolate syrup.</step>
+    </steps>
+  </recipe>

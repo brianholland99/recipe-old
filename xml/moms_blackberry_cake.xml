@@ -1,0 +1,50 @@
+  <recipe title="Mom's Blackberry Cake">
+    <category name="Cake"/>
+    <ingredients>
+      <ingredient name="butter">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="eggs">
+    	<measure qty="2"/>
+      </ingredient>
+      <ingredient name="baking soda">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="4" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="flour">
+    	<measure qty="1 3/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="blackberries">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="cinnamon" optional="yes">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="cloves" optional="yes" form="ground">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="walnuts" optional="yes" form="coarsely chopped">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Cream together butter and sugar. Beat in eggs.</step>
+      <step>Dissolve baking soda in milk. Add to mixture.</step>
+      <step>Stir in flour, salt, and vanila.</step>
+      <step>Add in the optional ingredients if desired.</step>
+      <step>Add in blackberries. Pour into cake pan.</step>
+      <step>Bake at 350&deg;F for 1/2 hour.</step>
+    </steps>
+    <comment>Add butter icing if desired.</comment>
+  </recipe>

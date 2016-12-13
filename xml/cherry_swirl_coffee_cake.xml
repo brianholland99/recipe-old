@@ -1,0 +1,64 @@
+  <recipe title="Cherry Swirl Coffee Cake">
+    <source>Carol Hahn</source>
+      <group name="cake">
+        <ingredients>
+	  <ingredient name="Bisquick baking mix">
+	    <measure qty="4" unit="cup"/>
+	  </ingredient>
+	  <ingredient name="sugar">
+            <measure qty="1/2" unit="cup"/>
+	  </ingredient>
+	  <ingredient name="margarine" form="melted">
+            <measure qty="1/4" unit="cup"/>
+	  </ingredient>
+	  <ingredient name="milk">
+            <measure qty="1/2" unit="cup"/>
+	  </ingredient>
+	  <ingredient name="vanilla">
+	    <measure qty="1" unit="teaspoon"/>
+	  </ingredient>
+	  <ingredient name="almond extract">
+	    <measure qty="1" unit="teaspoon"/>
+	  </ingredient>
+	  <ingredient name="egg">
+	    <measure qty="3"/>
+	  </ingredient>
+	  <ingredient name="cherry, apricot or blueberry pie filling">
+            <measure qty="1" unit="21oz-can"/>
+	  </ingredient>
+        </ingredients>
+      </group>
+      <group name="glaze">
+        <ingredients>
+    	  <ingredient name="powdered sugar">
+    	    <measure qty="1" unit="cup"/>
+    	  </ingredient>
+    	  <ingredient name="milk">
+            <measure-range>
+    	      <min-measure qty="1" unit="tablespoon"/>
+    	      <max-measure qty="2" unit="tablespoon"/>
+            </measure-range>
+    	  </ingredient>
+        </ingredients>
+        <steps>
+          <step>Beat powdered sugar and milk until smooth and of desired
+            consistency.</step>
+        </steps>
+      </group>
+      <steps>
+    	<step>Heat oven to 350&deg;F.</step>
+    	<step>Grease jelly roll pan, 15 1/2x10 1/2x1", or 2 square pans,
+              9x9x2".</step>
+    	<step>Mix all ingredients except pie filling and glaze; beat
+              vigorously 30 sec.</step>
+    	<step>Spread 2/3 of the batter (about 2 1/2 cups) in jelly roll pan
+              or 1/3 of the batter (about 1 1/4 cups) in each square
+              pan.</step>
+    	<step>Spread pie filling over batter (filling may not cover batter
+              completely).</step>
+    	<step>Drop remaining batter by taplespoon onto the pie filling.</step>
+    	<step>Bake until light brown, 20 to 25 min.</step>
+    	<step>Drizzle with glaze while warm.  Serve warm or cool.</step>
+      </steps>
+    <yield serves="18"/>
+  </recipe>

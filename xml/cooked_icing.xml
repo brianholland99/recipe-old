@@ -1,0 +1,29 @@
+  <recipe title="Cooked Icing">
+    <ingredients>
+      <ingredient name="flour">
+    	<measure qty="2" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="shortening">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="margarine">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Mix flour and milk. Cook until it is thick and then put
+            it in the refrigerator to cool.</step>
+      <step>After the flour and milk are cool, add the rest of the
+            ingredients.</step>
+      <step>Beat until it looks like whipped cream.</step>
+    </steps>
+  </recipe>

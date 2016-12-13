@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/REC-html401/loose.dtd">
+<html>
+<head>
+  <title>No title</title>
+  <meta name="GENERATOR" content="amaya V4.0">
+  <meta http-equiv="Content-Type" content="text/html">
+</head>
+
+<body>
+<h1>XML Recipes Description</h1>
+
+<h2>Table of Contents</h2>
+
+<p><a href="#Reason1">Reason for an XML format for recipes</a></p>
+
+<p><a href="#Creation">Creation of XML recipes documents</a></p>
+
+<p><a href="#Transformi">Transforming XML recipes documents to various
+forms</a></p>
+
+<p><a href="#walkthroug">A walkthrough of "recipes.dtd"</a></p>
+
+<h2><a name="Reason1">Reason for an XML format for recipes</a></h2>
+
+<p>There are several  advantages of an XML format for recipes. Since
+formatting of recipes is a personal preference, stylesheets can render the
+data in whatever format a user wants without changing the source file.  This
+would allow users to share recipes without having to change them to suit their
+display tatses.  In addition, a tool could be written that extracts the
+information to create a shopping list. Another possible tool is one that given
+a list of a few major ingredients from the refrigerator could locate recipes
+that only use those items plus ingredients that the user has previously
+declared as assumed available such as most spices. If this format gets
+developed to a reasonably simple but powerful definition, the community could
+be motivated to start exchanging recipes in this format rather than stright
+text.</p>
+
+<h2><a name="Creation">Creation of XML recipes documents</a></h2>
+
+<p>The creation of XML recipes documents can be accomplished via any of a
+number of XML editor or any text editor.  The current problem is that the
+editors don't natively make the entry as easy as just typing in the recipe.
+The editors still seem to expect that the person entering the recipes
+understand basic XML.   Some of the editors do have ways of creating entry
+forms but that hasn't been experimented yet. Maybe a separate application that
+would ask the user whether they had a recipe with groups or just one stage
+would be useful.</p>
+
+<h2><a name="Transformi">Transforming XML recipes documents to various
+forms</a></h2>
+
+<p>Transofrmation appears to work well for the most part.  Since XML
+Stylesheet Language Transformations (XSLT) 1.0 is a recommendation, there are
+several engines which can perfom the required transformations.  Converting to
+HTML works nicely.  The HTML is easily veiwable but is limited in its ability
+to do page layouts.</p>
+
+<p>Fortunately,  XML Stylesheet Language Formatting Objects (XSL-FO) is being
+designed and allows page layouts that can put the recipes onto 8.5x11 pages,
+4x6 cards, or 3x5 cards.Converting through XSL-FO to create page layouts works
+well using XSLT. The basic problem is that XSL-FO has just made it to release
+candidate status so is just stablizing. Once it finally becomes a
+recommendation, more software supporting this format should become available.
+At the moment, there are no browsers that support it directly.  There are few
+tools that will render the XSL-FO format in PDF. The two that have been
+experimented with for the recipes are FOP (Open Source from Apache) and the
+XEP evaulation version (commercial from RenderX).  The XEP program appears to
+wok better on some of the sample things attempted such as borders.  Both tools
+are being worked on so will likely support the complete XSL-FO eventally. Both
+tools also require a Java VM.</p>
+
+<h2><a name="walkthroug">A walkthrough of "recipes.dtd"</a></h2>
+
+<p>The recipes.dtd file is the current definition of the recipes XML format. 
+Now that the schemas have been published as a formal recommendadtion, the DTD
+will be converted to a schema which has the power to help define the types and
+other restrictions for elements and attributes.</p>
+
+<p>The XML DTD for recipes was designed to be simple but flexibile enough to
+handle the abnormal cases in recipes. What follows is intended to be a
+description of the recipe DTD and the reasons behoind the structure and
+elements chosen. There are two DTD's which we located on the net which really
+attempted to address recipes. The first was recipes.dtd which can be found off
+the page at "http://starship.python.net/crew/amk/recipe/". That version 0.01
+DTD was developed by A.M. Kuchling (amk1@bigfoot.com) and was dated March 14,
+1999. That was the starting point for developing this DTD. Some of the parts
+seemed to contain a little too much such as allowing all sorts of HTML pieces
+in the comments. Others did not handle some of the various recipes that we had
+seen. After the new DTD had been developed, a second DTD called Dessert.dtd
+was found which was dated January 1, 2000. The "Dessert.dtd" file can be found
+at "ftp://ftp.mindspring.com/users/jsaiya/Dessert.dtd" and was written by
+James Saiya. From an initial look, it appears to handle all sorts of things
+including nutritional information. It hasn't been looked at yet to see if it
+can handle some of the cases that we have taken into account. The intent in
+our design was to be flexible but SIMPLE. Now the new DTD structure:</p>
+<hr>
+
+<h4>recipes:</h4>
+<pre>&lt;!ELEMENT recipes (recipe)+&gt;</pre>
+
+<p>The recipes element was intended to be the root element. It can contain one
+or more recipes.</p>
+<hr>
+
+<h4>recipe:</h4>
+<pre>&lt;!ELEMENT recipe
+    (authors?,
+     source?,
+     category*,
+     image?,
+     (ingredients | (group,group+)),
+     steps?,
+     yield?,
+     comment?,
+     background?)&gt;
+&lt;!ATTLIST recipe title CDATA #REQUIRED
+                 id ID #IMPLIED&gt;</pre>
+
+<p>All recipes must have a title as an atrribute, an optional authors, an
+optional source, optional category(s), an optional image, ingredients or group
+information, optional steps, an optional yield element, an optional comment,
+and an optional background.  The ingredients element is used if it is a single
+part recipe and the group elements are used if it is a multiple part
+recipe.</p>
+
+<p>Example:  &lt;recipe title="Chocolate Cake"&gt;  ,,,  &lt;/recipe&gt;</p>
+<hr>
+
+<h4>authors:</h4>
+<pre>&lt;!ELEMENT authors (#PCDATA)&gt;</pre>
+
+<p>The author element is optional and should list the author(s) of the recipe
+if known. This element is text. Example: &lt;authors&gt;Julia
+Child&lt;/authors&gt;</p>
+<hr>
+
+<h4>source:</h4>
+<pre>&lt;!ELEMENT source (#PCDATA|emph)*&gt;</pre>
+
+<p>The source is an optional element describing where the recipe was obtained
+from. This element can contain mixed emph elements and text.  Examples:
+&lt;source&gt;Betty Crocker Cookbook&lt;/source&gt; or
+&lt;source&gt;Mom&lt;/source&gt;</p>
+<hr>
+
+<h4>category:</h4>
+<pre>&lt;!ELEMENT category EMPTY&gt;
+&lt;!ATTLIST category name CDATA #REQUIRED&gt;</pre>
+
+<p>"category" is an optional element describing the type of dish that the
+recipe makes. The category is entered in the name element. Example:
+&lt;category name="Cake"/&gt; A commonly agreed-upon set of categories will be
+more useful than arbitrary entries. Suggested categories are the
+following:</p>
+<pre>     "Appetizer and Snack"
+     "Beverage"
+     "Beef and Pork"
+     "Bread"
+     "Cake"
+     "Candy"
+     "Chicken"
+     "Cookie"
+     "Dessert"
+     "Egg and Cheese"
+     "Fish and Seafood"
+     "Pie"
+     "Salad and Dressing"
+     "Sauce and Relish"
+     "Soup and Stew"
+     "Vegetable"</pre>
+<hr>
+
+<h4>image</h4>
+<pre>&lt;!ELEMENT image EMPTY&gt;
+&lt;!ATTLIST image src CDATA #REQUIRED&gt;</pre>
+
+<p>"image" is an optional element. It's purpose is to point to a file
+containing a picture of the prepared food. The src atrtribute should be a URI.
+At the present, the suggested encoding is PNG. This has no legal hassles like
+those that concern the GIF format. Embedded base64 may be considered in the
+future. Example: &lt;image src="ccake.png"/&gt;</p>
+<hr>
+
+<p><strong>ingredients</strong></p>
+
+<p>&lt;!ELEMENT ingredients (ingredient|choices)+&gt;</p>
+
+<p>&lt;!ATTLIST ingredients id ID #IMPLIED&gt;</p>
+
+<p>The ingredients element hold one or more ingredient or choices
+elements.</p>
+<hr>
+
+<h4>ingredient</h4>
+<pre>&lt;!ELEMENT ingredient ((measure*)|(min-measure+,max-measure+))&gt;
+&lt;!ATTLIST ingredient
+                name      CDATA #REQUIRED 
+                id        ID    #IMPLIED
+                form      CDATA #IMPLIED
+                optional  (yes|no) 'no'                
+&gt;</pre>
+
+<p>"ingredient" is used to describe one ingredient. It consists of a required
+name and may be empty. Since no measures are required for an ingredient, it
+can be used for things like "whipped cream" where the steps might state "add
+whipped cream as desired". If the measure is specified, it can include
+multiple measure elements or a range denoted by one or more min-measure
+elements and one or more max-measure elements. Multiple measures for one
+ingredient allow quirky measurements such as 1 cup plus 2 tablespoons flour.
+Ingredients Examples: &lt;ingredient name="brown sugar" form="firmly
+packed"&gt;&lt;measure .../&gt;&lt;/ingredient&gt;</p>
+<hr>
+
+<h4>measure, min-measure, max-measure:</h4>
+<pre>&lt;!ELEMENT *measure EMPTY&gt;
+&lt;!ATTLIST *measure
+                qty       CDATA #REQUIRED
+                unit      CDATA #IMPLIED
+                precision (exact|approximate) "exact"
+&gt;</pre>
+
+<p>The definitions above appear once for each of measure, min-measure, and
+max-measure where "*measure" appears. The qty attribute is required but the
+unit attribute is optional. This handles things like "1 cup flour" or "1
+apple". As shown the exact is the default for precision but approximate can
+also be specified. If multiple measures appear, they should be added. A
+negative qty will allow measure such as 1 cup less 1 tablespoon flour.</p>
+
+<p>Guidelines: Spell out unit such as tablespoon rather than tbsp or T -- That
+will make it less confusing between readers. Use singular unit rather than
+plural such as 2 tablespoon vs. 2 tablespoons -- The program doing the
+rendering can plurarize the unit when it makes sense (it may be asked to
+double the recipe anyway). The rendering program should use "plus" and "less"
+when doing additions ("-" should be used for ranges) -- Ex: 1 cup - 1 cup plus
+2 tablespoons.</p>
+<hr>
+
+<h4>choices:</h4>
+<pre>&lt;!ELEMENT choices (choice, choice+)&gt;
+&lt;!ATTLIST choices id ID #IMPLIED&gt;</pre>
+
+<p>"choices" consist of at least two choice  elements. This allows such things
+as "1 cup walnuts" or "1 cup pecans" and more complex choices where multiple
+items may be replaced by one or more items.</p>
+<hr>
+
+<h4>choice:</h4>
+<pre>&lt;!ELEMENT choice (ingredient+, comment?)&gt;</pre>
+
+<p>This element simply holds one or more ingredient elements and an optional
+comment.  The comment is there for things such as "Makes a firmer topping" or
+"Add 5 minutes to baking"</p>
+<hr>
+
+<h4>group:</h4>
+<pre>&lt;!ELEMENT group (ingredients,steps?)&gt;
+&lt;!ATTLIST group name CDATA #REQUIRED
+                id   ID    #IMPLIED
+&gt;</pre>
+
+<p>The "group" element is expected to hold ingredients and steps for distinct
+parts of the item such as "cake" and "filling". The person entering the steps
+could place the steps in the common steps area for the recipe. It is suggested
+that the steps should be split into their groups and use the common steps for
+instructions on combining the parts. Stylesheets then have the option of
+printing the steps separate or placing them at the end.</p>
+<hr>
+
+<h4>steps:</h4>
+<pre>&lt;!ELEMENT steps (step)+&gt;
+&lt;!ATTLIST steps id ID #IMPLIED&gt;</pre>
+
+<p>Steps consists of one or more step elements.</p>
+<hr>
+
+<h4>step:</h4>
+<pre>&lt;!ELEMENT step (#PCDATA | emph)*&gt;
+&lt;!ATTLIST step id ID #IMPLIED&gt;</pre>
+
+<p>Step elements can contain combinations of emph elements and plain text.
+Various sources of recipes define the steps as single instructions or a few
+instructions together. Either is acceptable.</p>
+<hr>
+
+<h4>yield:</h4>
+<pre>&lt;!ELEMENT yield EMPTY&gt;
+&lt;!ATTLIST yield
+             serves      CDATA   #IMPLIED
+             count       CDATA   #IMPLIED
+             measurement CDATA   #IMPLIED
+             size        CDATA   #IMPLIED
+             descriptive CDATA   #IMPLIED&gt;
+&gt;</pre>
+
+<p>There are various ways to describe yield. This was intened to cover the
+common ones. Each of the attributes may be used alone. The count attribute may
+be combined with size. The count should be a number such as 12 rather than "1
+dozen". The DTD method of declaring this makes it difficult to describe this
+unless yield was split into more than one element. A possiblity? Do any
+recipes list multiple styles of yield such as 'Makes 2 liters, Serves 8'?</p>
+
+<p>Examples: "Serves 12", "8 servings", "4-5 servings", "2 dozen", "Makes 24",
+"36 bars", "2 liters", "1 1/2 Pounds", "2 cups", '10" Pie Crust', '2 9" Pie
+Crust' ...</p>
+<pre>So, the list above would become:
+  &lt;yield serves="12"/&gt;
+  &lt;yield serves="8"/&gt;
+  &lt;yield serves="4-5"/&gt;
+
+  &lt;yield count="24"/&gt;
+  &lt;yield count="24"/&gt;
+  &lt;yield count="36" descriptive="bars"/&gt;
+
+  &lt;yield measurement="2 liters"/&gt;
+  &lt;yield measurement="1 1/2 pounds"/&gt;
+  &lt;yield measurement="2 cups"/&gt;
+
+  &lt;yield size='10"' descriptive="pie crust"/&gt;
+  &lt;yield count="2" size='9"' descriptive="pie crusts"/&gt;</pre>
+<hr>
+
+<h4>background:</h4>
+<pre>&lt;!ELEMENT background (#PCDATA | emph)*&gt;</pre>
+
+<p>Background elements can describe a story that goes along with the recipe.
+This is where additional information can be kept such as "good served with
+biscuits" or  "Grandpa's favorite".  Basically this should contain info not
+pertaining to additional cooking instructions or serving suggestions.</p>
+<hr>
+
+<h4>comment:</h4>
+<pre>&lt;!ELEMENT comment (#PCDATA | emph)*&gt;</pre>
+
+<p>Comment elements are intended to provide additional info about the recipe
+such as "Makes a firmer topping" in a choice element or "High altitide
+directions: Bake an additional 10 minutes." in the recipe element</p>
+<hr>
+
+<h4>emph:<pre>&lt;!ELEMENT emph (#PCDATA)&gt;</pre>
+</h4>
+
+<p>The "emph" element denoted emphasis and it is likely that the stylesheet
+will render in some way to stand out such as bold or italics.</p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+  <recipe title="Chicken Broccoli Casserole">
+    <ingredients>
+      <ingredient name="chicken breast" form="boneless">
+    	<measure qty="6"/>
+      </ingredient>
+      <ingredient name="broccoli" form="frozen">
+    	<measure qty="1" unit="large package"/>
+      </ingredient>
+      <ingredient name="cream of chicken soup">
+    	<measure qty="2" unit="can"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="2" unit="soup can"/>
+      </ingredient>
+      <ingredient name="American cheese">
+    	<measure qty="6" unit="slice"/>
+      </ingredient>
+      <ingredient name="bread crumbs"/>
+    </ingredients>
+    <steps>
+      <step>Put broccoli in 9" x 13" baking dish.</step>
+      <step>Slow brown chicken in Crisco oil about 20 minutes. Put chicken
+            over broccoli.</step>
+      <step>Mix soup and milk. Pour over chicken and broccoli.</step>
+      <step>Lay 1 slice of cheese on each chicken. Sprinkle bread crumbs
+            over all.</step>
+      <step>Bake for 2 hours at 300&deg;F</step>
+    </steps>
+  </recipe>

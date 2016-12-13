@@ -1,0 +1,41 @@
+  <recipe title="Libby's Famous Homemade Pumpkin Pie">
+    <source>Libby's</source>
+    <ingredients>
+      <ingredient name="egg" form="slightly beaten">
+    	<measure qty="2"/>
+      </ingredient>
+      <ingredient name="Libby's Solid Pack Pumpkin">
+    	<measure qty="16" unit="ounce"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="3/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="ground cinnamon">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="ground ginger">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="ground clove">
+    	<measure qty="1/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="Carnation Evaporated Milk">
+    	<measure qty="12" unit="ounce"/>
+      </ingredient>
+      <ingredient name="pie shell" form="unbaked">
+    	<measure qty="1" unit="9-inch"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Preheat oven to 425&deg;F.</step>
+      <step>Combine filling ingredients in order given.</step>
+      <step>Pour into pie shell.</step>
+      <step>Bake 15 minutes. Reduce temperature to 350&deg;F.</step>
+      <step>Bake an additional 45 minutes or until knife inserted near
+            center comes out clean.</step>
+    </steps>
+    <yield count="1" size="9-inch" descriptive="pie"/>
+  </recipe>

@@ -1,0 +1,56 @@
+  <recipe title="Chewy Oatmeal Cookies">
+    <ingredients>
+      <ingredient name="Butter Flavor Crisco">
+    	<measure qty="3/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="light brown sugar" form="firmly packed">
+    	<measure qty="1 1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="egg">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1/3" unit="cup"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1 1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="quick oats" form="uncooked">
+    	<measure qty="3" unit="cup"/>
+      </ingredient>
+      <ingredient name="flour">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="baking soda">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="cinnamon">
+    	<measure qty="1/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="raisins">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="walnuts" form="coarsely chopped">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat oven to 375&deg;F.  Grease baking sheets.  Place sheets of
+            foil on countertop for cooling cookies.</step>
+      <step>Combine Crisco, brown sugar, egg, milk, and vanilla in large bowl.
+            Beat at medium speed of electric mixer until well blended.</step>
+      <step>Combine oats, flour, baking soda, salt, and cinnamon.  Mix into
+            creamed mixture at low speed just until blended.</step>
+      <step>Stir in raisins and nuts.</step>
+      <step>Drop rounded tablespoons of dough 2 inches apart onto baking
+            sheet.</step>
+      <step>Bake one baking sheet at a time at 375&deg;F for 10 to 12 minutes,
+            or until lightly browned.</step>
+      <step>Cool 2 minutes on baking sheet.  Remove cokies to foil to cool
+            completely.</step>
+    </steps>
+    <yield count="30"/>
+  </recipe>

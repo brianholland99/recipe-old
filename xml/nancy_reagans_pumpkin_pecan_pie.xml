@@ -1,0 +1,36 @@
+  <recipe title="Nancy Reagan's Pumpkin Pecan Pie">
+    <ingredients>
+      <ingredient name="egg" form="slightly beaten">
+    	<measure qty="4"/>
+      </ingredient>
+      <ingredient name="cooked pumpkin" form="mashed">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="dark corn syrup">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="cinnamon">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1/4" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="unbaked 9-inch pie shell">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="pecan" form="chopped">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Combine ingredients except pecans.</step>
+      <step>Pour into pie shell.</step>
+      <step>Bake at 350&deg;F for 40 minutes or until set.</step>
+    </steps>
+  </recipe>

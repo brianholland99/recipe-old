@@ -1,0 +1,51 @@
+  <recipe title="German Sweet Chocolate Brownies">
+    <source>Kraft</source>
+    <ingredients>
+      <ingredient name="Baker's German's Sweet Baking Chocolate">
+    	<measure qty="4" unit="ounce"/>
+      </ingredient>
+      <ingredient name="butter">
+    	<measure qty="1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="sugar">
+    	<measure qty="3/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="egg">
+    	<measure qty="2"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="flour">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="pecan" form="chopped">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="Baker's angel flake coconut">
+    	<measure qty="1 1/3" unit="cup"/>
+      </ingredient>
+      <ingredient name="brown sugar">
+    	<measure qty="1/4" unit="cup"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1/4" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat oven to 350&deg;F.</step>
+      <step>Microwave chocolate and butter in larger bowl on high
+            2 minutes or until butter is melted. Stir until chocolate
+            is completely melted.</step>
+      <step>Stir sugar into chocolate until well blended. Mix in eggs and
+            vanilla. Stir in flour and 1/2 cup of the pecans until well
+            blended. Spread in greased foil-lined 8-inch square pan.</step>
+      <step>Mix coconut, remaining 1/2 cup pecans and brown sugar in same
+            bowl.  Stir in milk until well blended. Spoon mixture evenly over
+            brownie batter.</step>
+      <step>Bake 40 minutes or until toothpick inserted in center comes out
+            with fudgey crumbs. Do not overbake. Cut into squares.</step>
+    </steps>
+    <yield serves="16"/>
+    <comment>Prep time: 15 min, Bake time: 55 min.</comment>
+  </recipe>

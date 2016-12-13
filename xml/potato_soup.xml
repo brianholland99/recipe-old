@@ -1,0 +1,45 @@
+  <recipe title="Potato Soup">
+    <ingredients>
+      <ingredient name="bacon">
+    	<measure qty="6" unit="slice"/>
+      </ingredient>
+      <ingredient name="celery" form="chopped">
+    	<measure qty="2" unit="stalk"/>
+      </ingredient>
+      <ingredient name="chicken stock">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="condensed cream of chicken soup">
+    	<measure qty="21" unit="ounce"/>
+      </ingredient>
+      <ingredient name="evaporated milk">
+    	<measure qty="26" unit="ounce"/>
+      </ingredient>
+      <ingredient name="parsley">
+    	<measure qty="2" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="carrot">
+    	<measure qty="2"/>
+      </ingredient>
+      <ingredient name="butter">
+    	<measure qty="2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="onion" form="chopped">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+      <ingredient name="potato" form="cubed">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="salt">
+    	<measure qty="1/2" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="cheese" form="shredded" optional="yes">
+    	<measure qty="1" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Brown bacon, then saute onions and celery in drippings.</step>
+      <step>Add all ingredients to a crock pot and cook until well
+            blended and creamy.</step>
+    </steps>
+  </recipe>

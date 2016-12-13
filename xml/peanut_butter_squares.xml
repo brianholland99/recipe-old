@@ -1,0 +1,43 @@
+  <recipe title="Peanut Butter Squares">
+    <category name="Dessert"/>
+    <group name="bottom">
+      <ingredients>
+      	<ingredient name="crunchy peanut butter">
+      	  <measure qty="1" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="margarine" form="melted">
+      	  <measure qty="1" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="graham cracker crumbs">
+      	  <measure qty="1 1/4" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="confectioners sugar">
+      	  <measure qty="3" unit="cup"/>
+      	</ingredient>
+      	<ingredient name="salt">
+      	  <measure qty="1/2" unit="teaspoon"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+        <step>Cream together and press into jelly roll pan.</step>
+      </steps>
+    </group>
+    <group name="topping">
+      <ingredients>
+      	<ingredient name="semi-sweet chocolate chips">
+      	  <measure qty="2" unit="cups"/>
+      	</ingredient>
+      	<ingredient name="margarine">
+      	  <measure qty="1" unit="tablespoon"/>
+      	</ingredient>
+      </ingredients>
+      <steps>
+      	<step>Melt together in double boiler.</step>
+      	<step>Add a little water until creamy.</step>
+      	<step>Spread over peanut butter mixture.</step>
+      </steps>
+    </group>
+    <steps>
+      <step>Cut before it sets then refrigerate.</step>
+    </steps>
+  </recipe>

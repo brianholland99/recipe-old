@@ -1,0 +1,23 @@
+  <recipe title="Frosting">
+    <ingredients>
+      <ingredient name="margarine">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="Crisco shortening">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="powdered sugar">
+    	<measure qty="2" unit="cup"/>
+      </ingredient>
+      <ingredient name="vanilla">
+    	<measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="milk">
+    	<measure qty="1/4" unit="cup"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Put all ingredients in a bowl and beat until fluffy (4-5
+            minutes)</step>
+    </steps>
+  </recipe>

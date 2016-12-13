@@ -1,0 +1,25 @@
+  <recipe title="Spanish Rice">
+    <source>Doris Holland</source>
+    <ingredients>
+      <ingredient name="hamburger">
+    	<measure qty="1" unit="pound"/>
+      </ingredient>
+      <ingredient name="large onion">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="green pepper" form="diced">
+    	<measure qty="1"/>
+      </ingredient>
+      <ingredient name="tomato sauce">
+    	<measure qty="1" unit="can"/>
+      </ingredient>
+      <ingredient name="salt"/>
+      <ingredient name="pepper"/>
+     </ingredients>
+    <steps>
+      <step>Brown hambuurger and drain.</step>
+      <step>Cook rice.</step>
+      <step>Mix all ingredients in a baking dish.</step>
+      <step>Bake at 350&deg;F for 1 hour.</step>
+    </steps>
+  </recipe>
