@@ -1,7 +1,12 @@
 # Copyrights and recipe data
 
 Before adding this repo as a public repo, I did a bit of searching on recipes
-and copyrights.  Most seemed somewhat consistent.
+and copyrights.  Most seemed somewhat consistent. Keeping a private list of
+information can include copyrighted material.  The issue comes when sharing
+copyrighted information. So, I did a search to see what was said about
+cooking recipes and copyrights.
+
+## Information
 
 The URL `http://paleomagazine.com/recipe-copyright/` had a lot of information
 and description about the particulars. While I am not a lawyer, I believe that
