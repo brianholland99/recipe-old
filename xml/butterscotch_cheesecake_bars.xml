@@ -16,7 +16,7 @@
     	<measure qty="8" unit="ounces"/>
       </ingredient>
       <ingredient name="sweetened condensed milk">
-    	<measure qty="1" unit="14-ounce can"/>
+    	<measure qty="14" unit="ounce"/>
       </ingredient>
       <ingredient name="egg">
     	<measure qty="1"/>

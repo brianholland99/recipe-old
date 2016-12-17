@@ -3,7 +3,7 @@
     <category name="Cake"/>
     <group name="cake">
       <ingredients>
-    	<ingredient name="Duncan Himes yellow cake mix">
+    	<ingredient name="Duncan Hines yellow cake mix">
     	  <measure qty="1" unit="box"/>
     	</ingredient>
     	<ingredient name="vanilla instant pudding">

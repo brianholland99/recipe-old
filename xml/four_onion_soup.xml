@@ -49,11 +49,7 @@
       <measure qty="1" unit="teaspoon"/>
     </ingredient>
 
-    <ingredient name="ground nutmeg">
-      <measure qty="1/2" unit="teaspoon"/>
-    </ingredient>
-
-    <ingredient name="ground nutmeg">
+    <ingredient name="nutmeg" form="ground">
       <measure qty="1/2" unit="teaspoon"/>
     </ingredient>
 

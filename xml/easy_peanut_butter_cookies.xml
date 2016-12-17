@@ -1,7 +1,7 @@
   <recipe title="Easy Peanut Butter Cookies">
     <ingredients>
       <ingredient name="sweetened condensed milk">
-    	<measure qty="1" unit="14-ounce can"/>
+    	<measure qty="14" unit="ounce"/>
       </ingredient>
       <ingredient name="peanut butter">
     	<measure qty="3/4" unit="cup"/>

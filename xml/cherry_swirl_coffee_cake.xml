@@ -23,8 +23,8 @@
 	  <ingredient name="egg">
 	    <measure qty="3"/>
 	  </ingredient>
-	  <ingredient name="cherry, apricot or blueberry pie filling">
-            <measure qty="1" unit="21oz-can"/>
+	  <ingredient name="canned cherry, apricot or blueberry pie filling">
+            <measure qty="21" unit="ounce"/>
 	  </ingredient>
         </ingredients>
       </group>

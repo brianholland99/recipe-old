@@ -1,12 +1,12 @@
   <recipe title="Cheesecake">
     <ingredients>
-      <ingredient name="cream cheese" form="(room temperature)">
+      <ingredient name="cream cheese" form="room temperature">
     	<measure qty="24" unit="ounce"/>
       </ingredient>
-      <ingredient name="sour cream" form="(room temperature)">
+      <ingredient name="sour cream" form="room temperature">
     	<measure qty="1" unit="cup"/>
       </ingredient>
-      <ingredient name="whipping cream" form="(room temperature)">
+      <ingredient name="whipping cream" form="room temperature">
     	<measure qty="1" unit="cup"/>
       </ingredient>
       <ingredient name="sugar">

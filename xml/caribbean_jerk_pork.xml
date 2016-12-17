@@ -36,15 +36,15 @@
       <measure qty="1"/>
     </ingredient>
 
-    <ingredient name="ground allspice">
+    <ingredient name="allspice" form="ground">
       <measure qty="1" unit="teaspoon"/>
     </ingredient>
 
-    <ingredient name="ground cinnamon">
+    <ingredient name="cinnamon" form="ground">
       <measure qty="1" unit="teaspoon"/>
     </ingredient>
 
-    <ingredient name="ground nutmeg">
+    <ingredient name="nutmeg" form="ground">
       <measure qty="1" unit="teaspoon"/>
     </ingredient>
 
@@ -52,7 +52,7 @@
       <measure qty="1/2" unit="teaspoon"/>
     </ingredient>
 
-    <ingredient name="freshly ground pepper">
+    <ingredient name="pepper" form="ground">
       <measure qty="1/4" unit="teaspoon"/>
     </ingredient>
 

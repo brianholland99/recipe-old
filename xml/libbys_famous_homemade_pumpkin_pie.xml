@@ -13,13 +13,13 @@
       <ingredient name="salt">
     	<measure qty="1/2" unit="teaspoon"/>
       </ingredient>
-      <ingredient name="ground cinnamon">
+      <ingredient name="cinnamon" form="ground">
     	<measure qty="1" unit="teaspoon"/>
       </ingredient>
-      <ingredient name="ground ginger">
+      <ingredient name="ginger" form="ground">
     	<measure qty="1/2" unit="teaspoon"/>
       </ingredient>
-      <ingredient name="ground clove">
+      <ingredient name="clove" form="ground">
     	<measure qty="1/4" unit="teaspoon"/>
       </ingredient>
       <ingredient name="Carnation Evaporated Milk">

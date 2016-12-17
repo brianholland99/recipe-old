@@ -12,7 +12,7 @@
       <ingredient name="soy sauce">
     	<measure qty="1/4" unit="cup"/>
       </ingredient>
-      <ingredient name="ground ginger">
+      <ingredient name="ginger" form="ground">
     	<measure qty="1/4" unit="teaspoon"/>
       </ingredient>
       <ingredient name="rice" form="cooked"/>

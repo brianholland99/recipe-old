@@ -4,7 +4,7 @@
       <choices>
         <choice>
           <ingredient name="frozen green beans">
-    	    <measure qty="2" unit="16-ounce-package"/>
+    	    <measure qty="32" unit="ounce"/>
           </ingredient>
         </choice>
         <choice>
@@ -33,9 +33,9 @@
       </ingredient>
     </ingredients>
     <steps>
-      <step>Thaw and draid green beans</step>
+      <step>Thaw and drain green beans</step>
       <step>Heat oven to 350&deg;F.</step>
-      <step>In bowl, combine beans,soup, milk, 1/2 can cnion rings, 1/2 of
+      <step>In bowl, combine beans, soup, milk, 1/2 can cnion rings, 1/2 of
             bacon bits, and pepper.</step>
       <step>Pour into 1 1/2 quart casserole.</step>
       <step>Bake for 30 minutes.</step>
