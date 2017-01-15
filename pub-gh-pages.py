@@ -43,7 +43,7 @@ def do_recipes():
             # There should only be XML files, but just double check.
             if ext == ".xml":
                 title = publish(name)
-                index.write(INDEX_FMT % (recipe, title))
+                index.write(INDEX_FMT % (''.join([name, '.html']), title))
         index.write('</ul></body></html>')
 
 do_recipes()
