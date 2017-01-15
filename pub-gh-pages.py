@@ -17,7 +17,6 @@ def get_title(xmlfile):
     return title
 
 def publish(recipe):
-    print(recipe)
     xmlfile = ''.join([XML_DIR, recipe, '.xml'])
     title = get_title(xmlfile)
     htmlfile = ''.join([GHP_DIR, recipe, '.html']) 
