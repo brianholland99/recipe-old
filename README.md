@@ -36,13 +36,15 @@ index card size recipes outputs.
 These commands take all the XML document from the corresponding directory
 and combines them into one HTML document.
 
--  `make test.html` - Makes HTML from the XML recipes in testdata/.
--  `make sample.html` - Makes HTML from the XML recipes in sample/.
--  `make all.html` - Makes HTML from the XML recipes in xml/.
+-   `make test.html` - Makes HTML from the XML recipes in testdata/.
+-   `make all.html` - Makes HTML from the XML recipes in xml/.
 
-Note: The directory 'sample' is not under version control. This is used to
-copy any number of XML recipe documents to in order to create an HTML page
-containing those recipes.
+### Publish HTML for use in GitHub pages
+
+-   `./pub-gh-pages.py` - Converts XML files from xml/ to HTML files in docs/.
+    This allows direct use in GitHub pages or having HTML documents to send
+    to someone.
+
 
 ## Reason for discontinuing this approach
 
