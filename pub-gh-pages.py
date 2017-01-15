@@ -34,6 +34,7 @@ def do_recipes():
     as a recipe and publish output to docs. Also creates index.html file.
     '''
     recipes = os.listdir('xml')
+    recipes.sort()
     with open('docs/index.html', 'w') as index:
         index.write('<html><head><title>Recipe List</title></head>\n')
         index.write('<body><h1>Recipe List</h1><ul>\n')
