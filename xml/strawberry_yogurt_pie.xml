@@ -1,0 +1,21 @@
+  <recipe title="Strawberry Yogurt Pie">
+    <ingredients>
+      <ingredient name="strawberry yogurt">
+    	<measure qty="16" unit="ounce"/>
+      </ingredient>
+      <ingredient name="strawberry" form="crushed">
+    	<measure qty="1/2" unit="cup"/>
+      </ingredient>
+      <ingredient name="Cool Whip">
+    	<measure qty="8" unit="ounce"/>
+      </ingredient>
+      <ingredient name="graham cracker crust">
+    	<measure qty="1"/>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Mix strawberries, yogurt, and Cool Whip together.</step>
+      <step>Pour into crust and freeze.</step>
+      <step>Cut and serve once hardened.</step>
+    </steps>
+  </recipe>

@@ -25,12 +25,12 @@
       </ingredient>
       <choices>
           <choice>
-              <ingredient name="walnut" form="chopped" iptional="yes">
+              <ingredient name="walnut" form="chopped" optional="yes">
 	          <measure qty="1" unit="cup"/>
               </ingredient>
          </choice>
           <choice>
-              <ingredient name="pecan" form="chopped" iptional="yes">
+              <ingredient name="pecan" form="chopped" optional="yes">
 	          <measure qty="1" unit="cup"/>
               </ingredient>
          </choice>

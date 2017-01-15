@@ -1,0 +1,64 @@
+  <recipe title="Spiedies">
+    <source>Doris Holland</source>
+    <ingredients>
+      <ingredient name="oil">
+	  <measure qty="1/3" unit="cup"/>
+      </ingredient>
+      <ingredient name="vinegar">
+	  <measure qty="1/3" unit="cup"/>
+      </ingredient>
+      <ingredient name="salt">
+	  <measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="paparika">
+	  <measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="parsley">
+	  <measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="oregano">
+	  <measure qty="1" unit="tablespoon"/>
+      </ingredient>
+      <ingredient name="pepper">
+	  <measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="basil leaves">
+	  <measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="celery salt">
+	  <measure qty="1" unit="teaspoon"/>
+      </ingredient>
+      <ingredient name="rosemary">
+	  <measure qty="1" unit="dash"/>
+      </ingredient>
+      <ingredient name="garlic">
+      </ingredient>
+      <ingredient name="small onion" form="chopped">
+	  <measure qty="1"/>
+      </ingredient>
+      <choices>
+          <choice>
+              <ingredient name="chicken breast" form="cubed">
+	          <measure qty="1" unit="pound"/>
+              </ingredient>
+          </choice>
+          <choice>
+              <ingredient name="pork" form="cubed">
+	          <measure qty="1" unit="pound"/>
+              </ingredient>
+          </choice>
+          <choice>
+              <ingredient name="beef" form="cubed">
+	          <measure qty="1" unit="pound"/>
+              </ingredient>
+          </choice>
+      </choices>
+    </ingredients>
+    <steps>
+      <step>Coat meat with oil.</step>
+      <step>Add other ingredients.</step>
+      <step>Mix and marinate for 2 to 3 days.</step>
+      <step>Place meat on skewers.</step>
+      <step>Grill until cooked.</step>
+    </steps>
+  </recipe>
