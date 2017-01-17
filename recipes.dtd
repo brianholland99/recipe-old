@@ -40,7 +40,7 @@
 <!ELEMENT ingredients (ingredient|choices)+>
 <!ATTLIST ingredients id ID #IMPLIED>
 
-<!ELEMENT ingredient ((measure*)|(measure-range*))>
+<!ELEMENT ingredient ((measure*)|(measure-range?))>
 <!ATTLIST ingredient
                 name      CDATA #REQUIRED 
                 id        ID    #IMPLIED

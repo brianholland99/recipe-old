@@ -14,3 +14,5 @@ Simplifying data model for transfering to new encoding format.
         needed for the transfer.
 -   Removed 'background' as 'comment' can include background.
 -   Removed 'emph' (emphasis).
+-   Removed option for multiple measure ranges.
+    -   That was a mistake as only one range makes sense.
