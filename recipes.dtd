@@ -12,17 +12,7 @@
 
 -->
 
-<!ELEMENT recipes (recipe+, bookinfo?) >
-
-<!ELEMENT bookinfo (title?, author*, date?, version?)>
-
-<!ELEMENT title   (#PCDATA)>
-
-<!ELEMENT author (#PCDATA)>
-
-<!ELEMENT date    (#PCDATA)>
-
-<!ELEMENT version (#PCDATA)>
+<!ELEMENT recipes (recipe+) >
 
 <!ELEMENT recipe
     (author*,
@@ -32,28 +22,20 @@
      (ingredients | (group,group+)), 
      steps?,
      yield?,
-     comment?,
-     background?)>
+     comment?)>
 
 <!ATTLIST recipe
      title    CDATA #REQUIRED
      subtitle CDATA #IMPLIED
      id       ID    #IMPLIED>
 
-<!ELEMENT source (#PCDATA|emph)*>
+<!ELEMENT source (#PCDATA)*>
 
 <!ELEMENT category EMPTY>
 <!ATTLIST category name CDATA #REQUIRED>
-<!-- suggested categories:
-  "Appetizer and Snack", "Beverage", "Beef and Pork", "Bread", "Cake",
-  "Candy", "Chicken", "Cookie", "Dessert", "Egg and Cheese",
-  "Fish and Seafood", "Pie", "Salad and Dressing", "Sauce and Relish",
-  "Soup and Stew", "Vegetable"
--->
 
 <!ELEMENT image EMPTY>
 <!ATTLIST image src CDATA #REQUIRED>
-<!-- image src should be a URI  -->
 
 <!ELEMENT ingredients (ingredient|choices)+>
 <!ATTLIST ingredients id ID #IMPLIED>
@@ -66,7 +48,7 @@
                 optional  (yes|no) 'no'>
 
 <!-- ingredient allows multiple measures in order to support measurements
-     such as 1 cup + 2 Tbsp -->
+     such as 1 cup plus 2 Tbsp -->
 
 <!ELEMENT measure EMPTY>
 <!ATTLIST measure
@@ -112,7 +94,7 @@
 <!ELEMENT steps (step)+>
 <!ATTLIST steps id ID #IMPLIED>
 
-<!ELEMENT step (#PCDATA | emph)*>
+<!ELEMENT step (#PCDATA)*>
 <!ATTLIST step id ID #IMPLIED>
 
 <!ELEMENT yield EMPTY>
@@ -123,10 +105,4 @@
              size        CDATA   #IMPLIED
              descriptive CDATA   #IMPLIED>
 
-<!-- Story or more info -->
-<!ELEMENT background (#PCDATA | emph)*>
-
-<!-- For comments such as "Grandpa's favorite" or "Goes good with fish". -->
-<!ELEMENT comment (#PCDATA | emph)*>
-
-<!ELEMENT emph (#PCDATA)>
+<!ELEMENT comment (#PCDATA)*>
