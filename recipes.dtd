@@ -12,22 +12,6 @@
 
 -->
 
-<!ENTITY copy   "&#xA9;">   <!-- copyright -->
-<!ENTITY reg    "&#xAE;">   <!-- registered trademark -->
-<!ENTITY deg    "&#xB0;">   <!-- degree -->
-<!ENTITY trade  "&#x2122;"> <!-- trademark -->
-
-<!-- Common Foreign Language Characters -->
-<!ENTITY iexcl  "&#xA1;">   <!-- upsidedown exclamation -->
-<!ENTITY Egrave "&#xC8;">   <!-- E acute -->
-<!ENTITY Eacute "&#xC9;">   <!-- E acute -->
-<!ENTITY Ecirc  "&#xCA;">   <!-- E circumflex (hat) -->
-<!ENTITY Icirc  "&#xCE;">   <!-- I circumflex (hat) -->
-<!ENTITY egrave "&#xE8;">   <!-- e grave -->
-<!ENTITY eacute "&#xE9;">   <!-- e acute -->
-<!ENTITY ecirc  "&#xEA;">   <!-- e circumflex (hat) -->
-<!ENTITY icirc  "&#xEE;">   <!-- i circumflex (hat) -->
-
 <!ELEMENT recipes (recipe+, bookinfo?) >
 
 <!ELEMENT bookinfo (title?, author*, date?, version?)>

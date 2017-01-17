@@ -1,5 +1,10 @@
-# recipe_old
-Old recipe repository to hold data until transfer to new project.
+# Old Baking Recipes
+Old baking recipe code and data. Recipes to be moved to a new system.
+
+See CHANGES.md for work done to prepare for moving to a new system.
+
+The git tag 'v1.0' contains the original DTD before stripping out some
+things.
 
 ## Description
 
@@ -8,17 +13,17 @@ with 1.08 being 2002-03-24, so has not been updated in a real long time.
 The XML DTD was created jointly by D. Elmo Peele and Brian Holland. 
 We looked around and did not find too much. A.M. Kuchling had an attempt that
 had some of the basics. Jim Watson contributed to this by helping with the
-XSLT scripts.
+XSLT scripts, since he had an interest too.
 
 It grew from both of us doing baking and having some recipes that we wanted
 to process via scripts to display in various formats and XML XSLT, and XSLT-FO
 seemed reasonable to use at the time. We wanted to include a bunch of recipes
-that we had that contained weird measurements such as "1 cup minus 1
+that we had that contained weird measurements such as "1 cup less 1
 tablespoon" and ranges of measures.
 
 Several recipes have been added to our initial set from my collection.
 
-See doc/recipe_ifo.html for details about the project and the DTD.
+See doc/recipe_info.html for details about the project and the DTD.
 
 ## Use
 
@@ -38,6 +43,10 @@ and combines them into one HTML document.
 
 -   `make test.html` - Makes HTML from the XML recipes in testdata/.
 -   `make all.html` - Makes HTML from the XML recipes in xml/.
+
+### Validation of recipe docs
+
+-   `make validate` - Validates all docs in xml/.
 
 ### Publish HTML for use in GitHub pages
 

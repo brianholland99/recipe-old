@@ -1,5 +1,5 @@
-  <recipe title="Stress Test of Recipe Format&copy;">
-    <source>Imagination&trade;</source>
+  <recipe title="Stress Test of Recipe Format">
+    <source>Imagination</source>
     <category name="Fake"/>
     <category name="Tatseless"/>
     <image src="caution.png"/>
@@ -42,12 +42,12 @@
       </choices>
     </ingredients>
     <steps>
-      <step>Heat oven to 375&deg;F.</step>
+      <step>Heat oven to 375F.</step>
       <step>Drop rounded tablespoons of dough 2 inches apart onto ungreased
             baking sheet.</step>
-      <step>Bake one baking sheet at a time at 375&deg;F for 8 to 10 minutes
-            for chewy cookies (cookies will appear moist -- <emph>do not
-            overbake</emph>) or 11 to 13 minutes for crisp cookies. Cool 2
+      <step>Bake one baking sheet at a time at 375F for 8 to 10 minutes
+            for chewy cookies (cookies will appear moist -- do not
+            overbake) or 11 to 13 minutes for crisp cookies. Cool 2
             minutes on baking sheet. Place sheets of foil on countertop.
             Remove cookies to foil to cool completely.</step>
     </steps>
@@ -55,7 +55,7 @@
     <comment>High-Altitude directions: add more water.
     </comment>
     <background>I found this recipe during travel to the moon. I had
-       to trade 7quarts of Tang&reg; for it. I hope you like it too. 
+       to trade 7quarts of Tang for it. I hope you like it too. 
        Grandpa's favorite!
     </background>
   </recipe>
