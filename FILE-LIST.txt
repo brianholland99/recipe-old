@@ -1,14 +1,12 @@
 XML Recipe
 
 CHANGES.md       - Changes made from tag 'v1.0' to clean up data
-FILE-LIST.txt    - This file
 Makefile         -
 PREFIX.xml       - XML prefix to bring in DTD when processing XML
 caution.png      - PNG image file for stress test exanples
 recipes.dtd      - Current Recipe DTD
-recipe_info.html - Documentation of XML format and files
+doc/recipe_info.html - Documentation of XML format and files
 pub-gh-pages.py  - Process XML recipes and place HTML into docs/ for GH pages.
 testdata         - Stress test examples (Exercise all elements)
 xml              - Actual recipes
-xsd              - XML schema (Draft)
 xsl              - XSLT scripts for transforming XML documents
