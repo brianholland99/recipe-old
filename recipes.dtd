@@ -3,13 +3,14 @@
   D. Elmo Peele
   Brian E. Holland
 
+  ORIGINAL DTD from date above is under git tag 'v1.0'.
+
+  This DTD and the corresponding XML docs are being simplified in preparation
+  for conversion to another format or tool.
+
   An XML DTD for cooking recipes.
   
-  Looked at work done in recipes.dtd V0.01 A.M. Kuchling (amk1@bigfoot.com)
-  for ideas when creating this. 
-  
   Both <recipes> and <recipe> are intended for use as root elements.
-
 -->
 
 <!ELEMENT recipes (recipe+) >
