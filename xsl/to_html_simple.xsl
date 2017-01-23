@@ -97,19 +97,19 @@
 <!-- Yield -->
 <xsl:template match="yield">
   <xsl:choose><!-- { -->
-    <xsl:when test="not(@serves = '')"><!-- { -->
+    <xsl:when test="@serves"><!-- { -->
       Serves <xsl:value-of select="@serves"/>
     </xsl:when><!-- } -->
-    <xsl:when test="not(@count = '')"><!-- { -->
+    <xsl:when test="@count"><!-- { -->
       Makes <xsl:value-of select="@count"/>
     </xsl:when><!-- } -->
-    <xsl:when test="not(@measurement = '')"><!-- { -->
+    <xsl:when test="@measurement"><!-- { -->
       Makes <xsl:value-of select="@measurement"/>
     </xsl:when><!-- } -->
-    <xsl:when test="not(@size = '')"><!-- { -->
+    <xsl:when test="@size"><!-- { -->
       Makes <xsl:value-of select="@size"/>
     </xsl:when><!-- } -->
-    <xsl:when test="not(@descriptive = '')"><!-- { -->
+    <xsl:when test="@descriptive"><!-- { -->
       Makes <xsl:value-of select="@descriptive"/>
     </xsl:when><!-- } -->
   </xsl:choose><!-- } -->
