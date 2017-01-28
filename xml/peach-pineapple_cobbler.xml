@@ -18,8 +18,8 @@
       <ingredient name="peach pie filling">
     	<measure qty="1" unit="can"/>
       </ingredient>
-      <ingredient name="pineapple" form="crushed">
-    	<measure qty="1" unit="16-ounce can"/>
+      <ingredient name="pineapple (16-ounce)" form="crushed">
+    	<measure qty="1" unit="can"/>
       </ingredient>
       <ingredient name="butter">
     	<measure qty="1/2" unit="cup"/>

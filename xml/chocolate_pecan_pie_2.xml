@@ -1,7 +1,7 @@
   <recipe title="Chocolate Pecan Pie">
     <ingredients>
-      <ingredient name="Pillsbury All Ready Pie Crusts">
-    	<measure qty="1" unit="15 ounce package"/>
+      <ingredient name="(15-ounce) Pillsbury All Ready Pie Crusts">
+    	<measure qty="1" unit="package"/>
       </ingredient>
       <ingredient name="semisweet chocolate chips" form ="melted">
         <measure qty="1/2" unit="cup"/>

@@ -20,7 +20,7 @@
     	<measure qty="3 1/2" unit="cup"/>
       </ingredient>
       <ingredient name="baking soda">
-    	<measure qty="2" unit="teaspooon"/>
+    	<measure qty="2" unit="teaspoon"/>
       </ingredient>
       <ingredient name="baking powder">
     	<measure qty="1/2" unit="teaspoon"/>

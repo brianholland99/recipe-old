@@ -15,8 +15,8 @@
       <ingredient name="peanut butter">
     	<measure qty="1/2" unit="cup"/>
       </ingredient>
-      <ingredient name="Vanilla Flavor Instant Pudding and Pie Filling">
-    	<measure qty="1" unit="(3 1/2 ounce) package"/>
+      <ingredient name="Vanilla Flavor Instant Pudding and Pie Filling (3 1/2 ounce">
+    	<measure qty="1" unit="package"/>
       </ingredient>
     </ingredients>
     <steps>

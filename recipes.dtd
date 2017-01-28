@@ -16,8 +16,7 @@
 <!ELEMENT recipes (recipe+) >
 
 <!ELEMENT recipe
-    (author*,
-     source?,
+    (source?,
      category*,
      image?,
      (ingredients | (group,group+)), 
@@ -27,7 +26,6 @@
 
 <!ATTLIST recipe
      title    CDATA #REQUIRED
-     subtitle CDATA #IMPLIED
      id       ID    #IMPLIED>
 
 <!ELEMENT source (#PCDATA)*>

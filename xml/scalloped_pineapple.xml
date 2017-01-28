@@ -19,8 +19,8 @@
       <ingredient name="bread">
     	<measure qty="4" unit="slice"/>
       </ingredient>
-      <ingredient name="pineapple" form="crushed">
-    	<measure qty="1" unit="20-ounce can"/>
+      <ingredient name="(20-ounce) pineapple" form="crushed">
+    	<measure qty="1" unit="can"/>
       </ingredient>
     </ingredients>
     <steps>

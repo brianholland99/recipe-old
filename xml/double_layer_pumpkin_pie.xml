@@ -18,12 +18,12 @@
       <ingredient name="milk" form="cold">
     	<measure qty="1" unit="cup"/>
       </ingredient>
-      <ingredient name="pumpkin">
-    	<measure qty="1" unit="(16 ounce can)"/>
+      <ingredient name="(16-ounce) pumpkin">
+    	<measure qty="1" unit="can"/>
       </ingredient>
-      <ingredient name="JELL-0 Vanilla Flavor Instant Pudding &amp; Pie
+      <ingredient name="(4-serving size) JELL-0 Vanilla Flavor Instant Pudding &amp; Pie
                Filling">
-    	<measure qty="2" unit="(4-serving size)"/>
+    	<measure qty="2" unit="box"/>
       </ingredient>
       <ingredient name="cinnamon" form="ground">
     	<measure qty="1" unit="teaspoon"/>

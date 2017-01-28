@@ -32,7 +32,7 @@
     	<measure qty="2"/>
       </ingredient>
       <ingredient name="salt">
-    	<measure qty="1/2" unit="teaspoom"/>
+    	<measure qty="1/2" unit="teaspoon"/>
       </ingredient>
       <ingredient name="parmesan cheese" form="grated">
     	<measure qty="1/2" unit="cup"/>

@@ -6,8 +6,8 @@
     	<ingredient name="Duncan Hines yellow cake mix">
     	  <measure qty="1" unit="box"/>
     	</ingredient>
-    	<ingredient name="vanilla instant pudding">
-    	  <measure qty="1" unit="(4 serving size box)"/>
+    	<ingredient name="(4-serving size) vanilla instant pudding">
+    	  <measure qty="1" unit="box"/>
     	</ingredient>
     	<ingredient name="Crisco oil">
     	  <measure qty="2" unit="tablespoon"/>
